@@ -1,0 +1,999 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Efficient Non-Parametric Neural Density Estimation and Its Application to Outlier and Anomaly Detection
+	</title>
+
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+	<meta name="author" content="Hakim El Hattab">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/jagallegom.css" id="theme">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<img src="resources/unal.svg" style="width: 200px;" />
+				<h2>Efficient Non-Parametric Neural Density Estimation and Its Application to Outlier and Anomaly
+					Detection</h2>
+				<h4 style="font-weight: 100;">Joseph A. Gallego M.<sup>1</sup> Fabio A. González O.<sup>1</sup></h4>
+				<h6 style="font-weight: 100; font-size: 16px;"><sup>1</sup>Engineering – Systems and Industrial
+					Department – Bogota - Colombia</h6>
+			</section>
+
+			<section style="top: 0px; display: block;" class="stack present" data-previous-indexv="0">
+
+				<section class="title-slide has-dark-background present" style="top: 312px; display: block;">
+					<h1>Background</h1>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<div class="text-image">
+						<img src="resources/motivation1.svg" alt="Websocket">
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<div class="text-image">
+						<img src="resources/motivation2.svg" alt="Websocket">
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<div class="text-image">
+						<img src="resources/motivation3.svg" alt="Websocket">
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<div class="text-image">
+						<img src="resources/motivation4.svg" alt="Websocket">
+					</div>
+				</section>
+			</section>
+
+
+			<!-- Introduction -->
+			<section style="top: 0px; display: block;" class="stack present" data-previous-indexv="0">
+
+				<section class="title-slide has-dark-background present" style="top: 312px; display: block;">
+					<h1>Kernel Density Estimation</h1>
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="11">Density Estimation</h1>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Density Estimation</h1>
+					<div class="text-image">
+						<img src="resources/kde.png" alt="Websocket" width="30%" style="float: right">
+						<div style="width: 70%;">
+							<ul>
+								<li>Likelihood of an outcome form a random variable <a>[3]</a>.</li>
+							</ul>
+						</div>
+					</div>
+					<p class="footnote">[1] Hastie, T., Tibshirani, R., and Friedman, J.The elements ofstatistical
+						learning: data mining, inference, and predic-tion. Springer Science & Business Media, 2009.
+					</p>
+				</section>
+
+				<section data-auto-animate="" class="future" style="top: 99.5px; display: none;" hidden=""
+					aria-hidden="true">
+					<h1>Density Estimation</h1>
+					<div class="text-image">
+						<img src="resources/kde.png" alt="Websocket" width="30%" style="float: right">
+						<div style="width: 70%;">
+							<ul>
+								<li>Likelihood of an outcome form a random variable <a>[3]</a>.</li>
+								<li>Construction of an estimate based on data <a>[3]</a>.</li>
+							</ul>
+						</div>
+					</div>
+					<p class="footnote">[1] Hastie, T., Tibshirani, R., and Friedman, J.The elements ofstatistical
+						learning: data mining, inference, and predic-tion. Springer Science & Business Media, 2009.</p>
+				</section>
+				<section data-auto-animate="" class="future" style="top: 99.5px; display: none;" hidden=""
+					aria-hidden="true">
+					<h1>Density Estimation</h1>
+					<div class="text-image">
+						<img src="resources/kde.png" alt="Websocket" width="30%" style="float: right">
+						<div style="width: 70%;">
+							<ul>
+								<li>Likelihood of an outcome form a random variable <a>[3]</a>.</li>
+								<li>Construction of an estimate based on data <a>[3]</a>.</li>
+								<li>A parametric density function is often assumed <a>[3]</a>.</li>
+							</ul>
+						</div>
+					</div>
+					<p class="footnote">[1] Hastie, T., Tibshirani, R., and Friedman, J.The elements ofstatistical
+						learning: data mining, inference, and predic-tion. Springer Science & Business Media, 2009.</p>
+				</section>
+				<section data-auto-animate="" class="future" style="top: 99.5px; display: none;" hidden=""
+					aria-hidden="true">
+					<h1>Density Estimation</h1>
+					<div class="text-image">
+						<img src="resources/kde.png" alt="Websocket" width="30%" style="float: right">
+						<div style="width: 75%;">
+							<ul>
+								<li>Likelihood of an outcome form a random variable <a>[3]</a>.</li>
+								<li>Construction of an estimate based on data <a>[3]</a>.</li>
+								<li>A parametric density function is often assumed <a>[3]</a>.</li>
+								<li>Problem: prior information <a>[3]</a>.
+								</li>
+							</ul>
+						</div>
+					</div>
+					<p class="footnote">[1] Hastie, T., Tibshirani, R., and Friedman, J.The elements ofstatistical
+						learning: data mining, inference, and predic-tion. Springer Science & Business Media, 2009.</p>
+				</section>
+
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="11">Applications</h1>
+				</section>
+
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Aplications</h1>
+					<div class="text-image">
+						<div style="width:50%; float:left;">
+							<img src="resources/generative_model.png" alt="Generative Models" width="70%">
+							<p>Generative Models</p>
+						</div>
+						<div style="width:50%; float:right;">
+							<img src="resources/kde_kernel.svg" alt="Choropleth Maps" width="77%"
+								style="margin-top: 0px; margin-bottom: 0px;"><br>
+							Density Estimation
+						</div>
+						<div style="width:50%; float:left;">
+							<img src="resources/anomaly_detection.jpg" alt="Anomaly Detection" width="80%">
+							Anomaly Detection
+						</div>
+
+						<div style="width:50%; float:right;">
+							<img src="resources/classification.png" alt="Classification" width="70%">
+							Classification
+						</div>
+					</div>
+				</section>
+
+
+
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="11">Kernel Density Estimation</h1>
+				</section>
+
+
+
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Density Estimation</h1>
+					<div class="text-image">
+						<img src="resources/kde_kernel.svg" alt="Websocket" width="40%" style="float: right">
+						<div style="width: 60%;">
+							<ul>
+								<li>Preferred non-parametric density estimation tool.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Density Estimation</h1>
+					<div class="text-image">
+						<img src="resources/kde_kernel.svg" alt="Websocket" width="40%" style="float: right">
+						<div style="width: 60%;">
+							<ul>
+								<li>Preferred non-parametric density estimation tool.</li>
+								<li>Don't assume any prior parametric density function.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Density Estimation</h1>
+					<div class="text-image">
+						<img src="resources/kde_kernel.svg" alt="Websocket" width="30%" style="float: right">
+						<div style="width: 70%;">
+							<ul>
+								<li>Preferred non-parametric density estimation tool.</li>
+								<li>Don't assume any prior parametric density function.</li>
+								<li>A memory based algorithm</li>
+							</ul>
+									
+						</div>
+					</div><br><br>
+					<table>
+						<thead><tr>
+							<th>Phase</th>
+							<th>Memory Requirements</th>
+							<th>Testing Requirements</th>
+						</tr></thead>
+						<tbody><tr>
+							<td>Training Phase</td>
+							<td>\(O(N)\)</td>
+							<td>\(O(C)\) (Constant)</td>
+						</tr>
+						<tr>
+							<td>Testing Phase</td>
+							<td>\(O(N)\) + \(O(M)\)</td>
+							<td>\(O(NM)\) (Linear)</td>
+						</tr></tbody>
+					</table>
+					<span class="footnote">where N and M are the number of training points and testing points respectively</span>
+				</section>
+
+
+				<section class="title-slide has-dark-background present" style="top: 312px; display: block;">
+					<h1>Kernel Density Estimation Problems</h1>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Density Estimation Problems</h1>
+					<div class="text-image">
+						<img src="resources/kde_kernel.svg" alt="Websocket" width="40%" style="float: right">
+						<div style="width: 60%;">
+							<ul>
+								<li>KDE is not efficient, i.e., the time consumed to make a prediction is linear in the
+									number of training data points [4]. </li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Density Estimation Problems</h1>
+					<div class="text-image">
+						<img src="resources/kde_kernel.svg" alt="Websocket" width="40%" style="float: right">
+						<div style="width: 60%;">
+							<ul>
+								<li>KDE is not efficient, i.e., the time consumed to make a prediction is linear in the
+									number of training data points [4]. </li>
+								<li>Besides, KDE is not easily integrated with other state-of-the-art learning models
+									such as deep learning because it is not easily differentiable [1].</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+			</section>
+
+			<section style="top: 0px; display: block;" class="stack present" data-previous-indexv="0">
+
+				<section class="title-slide has-dark-background present" style="top: 312px; display: block;">
+					<h1>Random Fourier Features</h1>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Methods</h1>
+					<div class="text-image">
+						<img src="resources/feature_space.png" alt="Websocket" width="40%" style="float: right">
+						<div style="width: 60%;">
+							<ul>
+								<li><b>Idea</b>: learn linear models in a feature space induced by a kernel function.
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Methods</h1>
+					<div class="text-image">
+						<img src="resources/feature_space.png" alt="Websocket" width="40%" style="float: right">
+						<div style="width: 60%;">
+							<ul>
+								<li><b>Idea</b>: learn linear models in a feature space induced by a kernel function.
+								</li>
+								<li>Feature space is usually high-dimensional or even of infinite dimension. So, it is
+									usually not explicitly calculated.</li>
+
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Methods</h1>
+					<div class="text-image">
+						<img src="resources/feature_space.png" alt="Websocket" width="40%" style="float: right">
+						<div style="width: 60%;">
+							<ul>
+								<li><b>Idea</b>: learn linear models in a feature space induced by a kernel function.
+								</li>
+								<li>Feature space is usually high-dimensional or even of infinite dimension. So, it is
+									usually not explicitly calculated.</li>
+								<li>Methods: Support Vector Machines, kernel ridge regression, kernel pca, and many more
+									(nowadays called shallow methods)</li>
+
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Methods</h1>
+					<div class="text-image">
+						<img src="resources/feature_space.png" alt="Websocket" width="40%" style="float: right">
+						<div style="width: 60%;">
+							<ul>
+								<li><b>Idea</b>: learn linear models in a feature space induced by a kernel function.
+								</li>
+								<li>Feature space is usually high-dimensional or even of infinite dimension. So, it is
+									usually not explicitly calculated.</li>
+								<li>Methods: Support Vector Machines, kernel ridge regression, kernel pca, and many more
+									(nowadays called shallow methods)</li>
+								<li>Problem: efficiency \(O(N^2)\)</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Random Fourier Features</h1>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li><b>Idea</b>: explicitly calculate a mapping from the input space to the feature
+									space, such that the dot product in the feature space approximates a kernel. </li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Random Fourier Features</h1>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li><b>Idea</b>: explicitly calculate a mapping from the input space to the feature
+									space, such that the dot product in the feature space approximates a kernel. </li>
+								<li>Given \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\)
+									<br> builds an embedding \( \phi_{rff}: \mathbb R^d \rightarrow \mathbb{R}^d\)
+									<br> such that \[ k(x,y) \approx \langle \phi_{rff}(x), \phi_{rff}(y) \rangle \]
+
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Random Fourier Features</h1>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li><b>Idea</b>: explicitly calculate a mapping from the input space to the feature
+									space, such that the dot product in the feature space approximates a kernel. </li>
+								<li>Given \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\)
+									<br> builds an embedding \( \phi_{rff}: \mathbb R^d \rightarrow \mathbb{R}^d\)
+									<br> such that \[ k(x,y) \approx \langle \phi_{rff}(x), \phi_{rff}(y) \rangle \]
+
+								</li>
+								<li><b>Result:</b> you can learn models involving non-linear kernels using linear
+									methods</li>
+
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Random Fourier Features</h1>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li><b>Idea</b>: explicitly calculate a mapping from the input space to the feature
+									space, such that the dot product in the feature space approximates a kernel. </li>
+								<li>Given \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\)
+									<br> builds an embedding \( \phi_{rff}: \mathbb R^d \rightarrow \mathbb{R}^d\)
+									<br> such that \[ k(x,y) \approx \langle \phi_{rff}(x), \phi_{rff}(y) \rangle \]
+
+								</li>
+								<li><b>Result:</b> you can learn models involving non-linear kernels using linear
+									methods</li>
+								<li>Test of the time award NeurIPS 2017</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</section>
+
+
+			<section style="top: 0px; display: block;" class="stack present" data-previous-indexv="0">
+
+				<section class="title-slide has-dark-background present" style="top: 312px; display: block;">
+					<h1>Anomaly Detection</h1>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Anomaly Detection</h1>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li>The idea in anomaly detection is to classify normal versus abnormal patterns, i.e.
+									to construct a segmentation between normal and abnormal patterns of the data points.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Anomaly Detection</h1>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li>The idea in anomaly detection is to classify normal versus abnormal patterns, i.e.
+									to construct a segmentation between normal and abnormal patterns of the data points.
+								</li>
+								<li>The normal and abnormal behavior of data points could be given by two different
+									underlying distribution functions</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Anomaly Detection</h1>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li>The idea in anomaly detection is to classify normal versus abnormal patterns, i.e.
+									to construct a segmentation between normal and abnormal patterns of the data points.
+								</li>
+								<li>The normal and abnormal behavior of data points could be given by two different
+									underlying distribution functions</li>
+								<li>It could be a modification of the underlying process</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Anomaly Detection</h1>
+					<h2>Applications</h2>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li>Fraud detection.</li>
+								<li>Insurance care</li>
+								<li>Intrusion detection for cybersecurity</li>
+								<li>Industrial damage detection</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Anomaly Detection</h1>
+					<h2>Applications</h2>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li>Let \(\alpha\) be the ratio of the anomaly points</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Anomaly Detection</h1>
+					<h2>Applications</h2>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li>Let \(\alpha\) be the ratio of the anomaly points</li>
+								<li>When \(\alpha\) is high, the most prominent approach for anomaly detection will be
+									to use a supervised learning approach.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Anomaly Detection</h1>
+					<h2>Applications</h2>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li>Let \(\alpha\) be the ratio of the anomaly points</li>
+								<li>When \(\alpha\) is high, the most prominent approach for anomaly detection will be
+									to use a supervised learning approach.</li>
+								<li> However, when \(\alpha\) is low, the best approach will be to use outlier detection
+									algorithms.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+			</section>
+			<section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="11">Problem Statement</h1>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Problem Statement (1/2)</h1>
+					<div class="text-image">
+						<ul>
+							<li>Anomaly and outlier detection is an important task in different research areas with
+								various application domains. </li>
+						</ul>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Problem Statement (1/2)</h1>
+					<div class="text-image">
+						<ul>
+							<li>Anomaly and outlier detection is an important task in different research areas with
+								various application domains. </li>
+							<li>One of the main challenges in anomaly detection is that usually only normal data points
+								are available. </li>
+						</ul>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Problem Statement (1/2)</h1>
+					<div class="text-image">
+						<ul>
+							<li>Anomaly and outlier detection is an important task in different research areas with
+								various application domains. </li>
+							<li>One of the main challenges in anomaly detection is that usually only normal data points
+								are available. </li>
+							<li>Density-based algorithms such as parametric density estimation or kernel density
+								estimation can be used to solve anomaly and outlier detection problems. </li>
+
+						</ul>
+					</div>
+				</section>
+
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Problem Statement (1/2)</h1>
+					<div class="text-image">
+						<ul>
+							<li>Anomaly and outlier detection is an important task in different research areas with
+								various application domains. </li>
+							<li>One of the main challenges in anomaly detection is that usually only normal data points
+								are available. </li>
+							<li>Density-based algorithms such as parametric density estimation or kernel density
+								estimation can be used to solve anomaly and outlier detection problems. </li>
+							<li>Current density estimation algorithms suffer from the curse of dimensionality and their
+								linear complexity in the number of training data is prohibitive inmost application
+								domains.</li>
+						</ul>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Problem Statement (2/2)</h1>
+					<div class="text-image">
+						<ul>
+							<li>A challenge in density estimation is how to build efficient algorithms.</li>
+						</ul>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Problem Statement (2/2)</h1>
+					<div class="text-image">
+						<ul>
+							<li>A challenge in density estimation is how to build efficient algorithms.</li>
+							<li>Algorithms capable of producing an approximation to the underlying distribution function
+								are applied to a variety of problems in machine learning. </li>
+						</ul>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Problem Statement (2/2)</h1>
+					<div class="text-image">
+						<ul>
+							<li>A challenge in density estimation is how to build efficient algorithms.</li>
+							<li>Algorithms capable of producing an approximation to the underlying distribution function
+								are applied to a variety of problems in machine learning. </li>
+							<li>State-of-the-art algorithms, such as density neural networks, provide a useful tool for
+								estimating density, and this estimate can be used to solve a variety of problems, such
+								as anomaly and outlier detection problems.</li>
+						</ul>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Problem Statement (2/2)</h1>
+					<div class="text-image">
+						<ul>
+							<li>A challenge in density estimation is how to build efficient algorithms.</li>
+							<li>Algorithms capable of producing an approximation to the underlying distribution function
+								are applied to a variety of problems in machine learning. </li>
+							<li>State-of-the-art algorithms, such as density neural networks, provide a useful tool for
+								estimating density, and this estimate can be used to solve a variety of problems, such
+								as anomaly and outlier detection problems.</li>
+							<li>However, algorithms from the literature, such as autoregressive models or latent models,
+								are computationally heavy and time consuming.</li>
+						</ul>
+					</div>
+				</section>
+
+
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="11">Research Questions</h1>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Research Questions</h1>
+					<div class="text-image">
+						<ul>
+							<li>How to design a nonparametric density estimation method that is efficient in terms of
+								time and space?</li>
+						</ul>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target=""> Research Questions</h1>
+					<div class="text-image">
+						<ul>
+							<li>How to design a nonparametric density estimation method that is efficient in terms
+								of
+								time and space?</li>
+
+							<li>How to design a method capable of integrating with other deep learning methods for
+								nonparametric density estimation?</li>
+						</ul>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Research Questions</h1>
+					<div class="text-image">
+						<ul>
+							<li>How to design a nonparametric density estimation method that is efficient in terms of
+								time and space?</li>
+
+							<li>How to design a method capable of integrating with other deep learning methods for
+								nonparametric density estimation?</li>
+
+							<li>Is the approximation given by the proposed method better in terms of efficiency than the
+								state-of-the-art approximation methods for kernel density estimation?</li>
+
+						</ul>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Research Questions</h1>
+					<div class="text-image">
+						<ul>
+							<li>How to design a nonparametric density estimation method that is efficient in terms of
+								time and space?</li>
+
+							<li>How to design a method capable of integrating with other deep learning methods for
+								nonparametric density estimation?</li>
+
+							<li>Is the approximation given by the proposed method better in terms of efficiency than the
+								state-of-the-art approximation methods for kernel density estimation?</li>
+
+							<li>How to design methods for anomaly and outlier detection using nonparametric density
+								estimation?</li>
+						</ul>
+					</div>
+				</section>
+
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Research Questions</h1>
+					<div class="text-image">
+						<ul>
+							<li>How to design a nonparametric density estimation method that is efficient in terms of
+								time and space?</li>
+
+							<li>How to design a method capable of integrating with other deep learning methods for
+								nonparametric density estimation?</li>
+
+							<li>Is the approximation given by the proposed method better in terms of efficiency than the
+								state-of-the-art approximation methods for kernel density estimation?</li>
+
+							<li>How to design methods for anomaly and outlier detection using nonparametric density
+								estimation?</li>
+
+							<li> What is the impact of new methods for anomaly and outlier detection using nonparametric
+								density estimation?</li>
+						</ul>
+					</div>
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="11">Main Goal</h1>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Main Goal</h1>
+					<div class="text-image">
+						To develop a non-parametric method for density estimation that is efficient, can be integrable
+						with other deep learning frameworks, and can be used for solving anomaly detection tasks.
+
+					</div>
+				</section>
+
+
+
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="11">Specific objectives</h1>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Specific objectives</h1>
+					<div class="text-image">
+						<ul>
+							<li> To design a non-memory-based method for efficient kernel density estimation.</li>
+						</ul>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Specific objectives</h1>
+					<div class="text-image">
+						<ul>
+							<li> To design a non-memory-based method for efficient kernel density estimation.</li>
+
+							<li> To evaluate the efficiency of the method and to compare it against other
+								state-of-the-art kernel density approximation methods.</li>
+
+						</ul>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Specific objectives</h1>
+					<div class="text-image">
+						<ul>
+							<li> To design a non-memory-based method for efficient kernel density estimation.</li>
+
+							<li> To evaluate the efficiency of the method and to compare it against other
+								state-of-the-art kernel density approximation methods.</li>
+
+							<li> To propose new algorithms for anomaly detection using density matrices and random
+								Fourier features.</li>
+
+						</ul>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Specific objectives</h1>
+					<div class="text-image">
+						<ul>
+							<li> To design a non-memory-based method for efficient kernel density estimation.</li>
+
+							<li> To evaluate the efficiency of the method and to compare it against other
+								state-of-the-art kernel density approximation methods.</li>
+
+							<li> To propose new algorithms for anomaly detection using density matrices and random
+								Fourier features.</li>
+
+							<li> To evaluate the model in anomaly detection tasks.</li>
+						</ul>
+					</div>
+				</section>
+
+
+			</section>
+			<section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="11">Methodology</h1>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<div class="text-image">
+						<img src="resources/work_packages.png" alt="Websocket">
+					</div>
+				</section>
+			</section>
+
+
+			<section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="11">Done</h1>
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">Learning with Density Matrices</h2>
+					<h3 data-auto-animate-target="11">Paper</h3>
+					<img src="resources/paper_learning_with_density_matrices.png" alt="Kde vs dmkde" width="60%">
+				</section>
+
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">DMKDE</h2>
+					<h3 data-auto-animate-target="11">Comparison to KDE</h3>
+					<img src="resources/kde_vs_dmkde.svg" alt="Kde vs dmkde" width="80%">
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">DMKDE</h2>
+					<h3 data-auto-animate-target="11">Undergraduate thesis co-advisor</h3>
+					<img src="resources/thesis_juan.png" alt="Kde vs dmkde" width="60%">
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">DMKDE</h2>
+					<h3 data-auto-animate-target="11">Comparison to fast KDE</h3>
+					<img src="resources/comparison_to_fast_kde.svg" alt="Kde vs dmkde" width="80%">
+				</section>
+
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">Neural Density Estimation with DMKDE</h2>
+					<h3 data-auto-animate-target="11">Comparison with other NDE methods</h3>
+					<img src="resources/round-trip.svg" alt="Websocket">
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">Neural Density Estimation with DMKDE</h2>
+					<h3 data-auto-animate-target="11">Comparison to KDE method</h3>
+					<div style="width:30%; float:left;">
+						<img src="resources/gmm.svg" alt="Gmm">
+						<p>Gaussian Mixture Model</p>
+					</div>
+					<div style="width:70%; float:left;">
+						<img src="resources/dmkde_vs_10000.png" alt="Dmkde vs 10000">
+						<p>Results</p>
+					</div>
+
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">Neural Density Estimation using Density Matrix and Random Fourier
+						Features</h2>
+					<h3 data-auto-animate-target="11">Paper</h3>
+					<img src="resources/paper_neural_density_estimation.png" alt="Kde vs dmkde" width="60%">
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">Classification with DMKDE</h2>
+					<h3 data-auto-animate-target="11">Density Matrix Kernel Density Classification (DMKDC)</h3>
+					<img src="resources/classification_dmkde.png" alt="Classification dmkde">
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">Anomaly Detection</h2>
+					<h3 data-auto-animate-target="11">Sklearn Methods vs DMKDE in Gaussian distributions</h3>
+					<img src="resources/anomaly_detection1.svg" alt="Classification dmkde">
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">Anomaly Detection</h2>
+					<h3 data-auto-animate-target="11">Sklearn Methods vs DMKDE</h3>
+					<img src="resources/anomaly_detection2.svg" alt="Classification dmkde" width="70%">
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">Neural Density Estimation using Density Matrix and Random Fourier
+						Features</h2>
+					<h3 data-auto-animate-target="11">Paper</h3>
+					<img src="resources/paper_anomaly_detection_using_density_matrix.png" alt="Kde vs dmkde"
+						width="60%">
+				</section>
+			</section>
+
+
+
+		</div>
+
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/zoom/zoom.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/search/search.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script src="plugin/math/math.js"></script>
+	<script>
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			center: true,
+			hash: true,
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+			},
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath]
+		});
+
+	</script>
+
+</body>
+
+</html>
