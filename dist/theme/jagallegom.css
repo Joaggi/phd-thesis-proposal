@@ -380,3 +380,19 @@ li {
 .right-col {
   flex-grow: 2;
 }
+
+.image-kde #kde {
+  opacity: 100%;
+}
+
+.image-kde #gaussian {
+  opacity: 50%;
+}
+
+.image-gaussian #kde {
+  opacity: 50%;
+}
+
+.image-gaussian #gaussian {
+  opacity: 100%;
+}
