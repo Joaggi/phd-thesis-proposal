@@ -32,12 +32,12 @@ $linkColor: #2a76dd;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
-$heading1Size: 2.5em;
+$heading1Size: 2.0em;
 $heading2Size: 1.6em;
 $heading3Size: 1.3em;
 $heading4Size: 1.0em;
-$heading5Size: 1.0em;
-$heading6Size: 1.0em;
+$heading5Size: 0.7em;
+$heading6Size: 0.7em;
 
 // Change text colors against dark slide backgrounds
 @include dark-bg-text-color(#fff);
@@ -89,4 +89,11 @@ li {
 
 .image-gaussian #gaussian{
     opacity: 100%;
+}
+
+h5{
+    font-size: 23px;
+}
+h6{
+    font-size: 20px;
 }
