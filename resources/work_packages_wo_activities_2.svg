@@ -240,9 +240,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="347.7931"
-     inkscape:cy="148.4464"
+     inkscape:zoom="1.979899"
+     inkscape:cx="303.53622"
+     inkscape:cy="184.44303"
      inkscape:document-units="mm"
      inkscape:current-layer="layer4"
      inkscape:document-rotation="0"
@@ -279,7 +279,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -306,46 +306,44 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:59.0969;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:59.0969;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
          x="67.125946"
          y="61.276352"
          id="text53185-7"
-         transform="translate(-1.1522205,-5.6415626)"><tspan
+         transform="translate(-5.5569802,-5.441347)"><tspan
            x="67.125946"
            y="61.276352"><tspan
-             style="text-align:start;text-anchor:start">Review of </tspan><tspan
-             style="text-align:start;text-anchor:start">Efficient </tspan></tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Review of </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Efficient </tspan></tspan><tspan
            x="67.125946"
            y="69.21385"><tspan
-             style="text-align:start;text-anchor:start">KDE</tspan></tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">KDE</tspan></tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:58.5301;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:58.5301;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
          x="59.024742"
          y="80.247292"
          id="text53189-1"
-         transform="translate(6.9473889,-6.0277733)"><tspan
+         transform="translate(2.5426292,-5.6386175)"><tspan
            x="59.024742"
            y="80.247292"><tspan
-             style="text-align:start;text-anchor:start">Experimental </tspan></tspan><tspan
-           x="59.024742"
-           y="88.18479"><tspan
-             style="text-align:start;text-anchor:start">Design</tspan></tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Experimental </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Design</tspan></tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:60.874;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:60.874;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
          x="57.915955"
          y="100.06767"
          id="text53193-2"
-         transform="translate(8.6303723,-5.2838234)"><tspan
+         transform="translate(4.2256126,-6.6853327)"><tspan
            x="57.915955"
            y="100.06767"><tspan
-             style="text-align:start;text-anchor:start">Assessment of </tspan><tspan
-             style="text-align:start;text-anchor:start">the </tspan></tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Assessment of </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">the </tspan></tspan><tspan
            x="57.915955"
            y="108.00517"><tspan
-             style="text-align:start;text-anchor:start">new </tspan><tspan
-             style="text-align:start;text-anchor:start">method</tspan></tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">new </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">method</tspan></tspan></text>
       <g
          id="g53265-2"
          transform="matrix(-1,0,0,1,52.203217,-8.6794645)">
@@ -365,36 +363,37 @@
        data-fragment-index="3">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:39.9372;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:39.9372;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
          x="90.283577"
          y="60.714725"
          id="text53273-1"
          transform="translate(42.009857,-9.5369397)"><tspan
            x="90.283577"
            y="60.714725"><tspan
-             style="font-size:6.35px;text-align:start;text-anchor:start;stroke-width:0.264583">D.2.1 </tspan></tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">D.2.1 </tspan></tspan><tspan
            x="90.283577"
            y="68.652224"><tspan
-             style="font-size:6.35px;text-align:start;text-anchor:start;stroke-width:0.264583">Experiment</tspan></tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">Experiment</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">al </tspan></tspan><tspan
            x="90.283577"
-           y="76.589728"><tspan
-             style="font-size:6.35px;text-align:start;text-anchor:start;stroke-width:0.264583">al Design</tspan></tspan></text>
+           y="76.589724"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">Design</tspan></tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:41.8448;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:41.8448;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
          x="91.681999"
          y="98.656609"
          id="text53277-7"
          transform="translate(40.636224,-13.217867)"><tspan
            x="91.681999"
            y="98.656609"><tspan
-             style="font-size:6.35px;text-align:start;text-anchor:start;stroke-width:0.264583">D.2.2 </tspan></tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">D.2.2 </tspan></tspan><tspan
            x="91.681999"
            y="106.59411"><tspan
-             style="font-size:6.35px;text-align:start;text-anchor:start;stroke-width:0.264583">Conference </tspan></tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">Conference </tspan></tspan><tspan
            x="91.681999"
            y="114.53161"><tspan
-             style="font-size:6.35px;text-align:start;text-anchor:start;stroke-width:0.264583">Paper</tspan></tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">Paper</tspan></tspan></text>
     </g>
     <g
        id="g54472"
@@ -418,17 +417,19 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:34.874;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:35.2744;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
          x="-13.514608"
          y="70.661652"
          id="text53093-7"
-         transform="translate(32.106035,0.18559242)"><tspan
+         transform="translate(32.106035,-1.4161325)"><tspan
            x="-13.514608"
            y="70.661652"><tspan
-             style="text-align:start;text-anchor:start">Evaluation </tspan></tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Evaluation </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">of </tspan></tspan><tspan
            x="-13.514608"
-           y="78.59915"><tspan
-             style="text-align:start;text-anchor:start">of method</tspan></tspan></text>
+           y="78.599154"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">the </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">method</tspan></tspan></text>
       <g
          id="g53121-9"
          transform="translate(55.921192,-7.8408014)">

@@ -240,9 +240,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="337.01146"
-     inkscape:cy="190.10047"
+     inkscape:zoom="1.979899"
+     inkscape:cx="470.33868"
+     inkscape:cy="220.23135"
      inkscape:document-units="mm"
      inkscape:current-layer="g56404"
      inkscape:document-rotation="0"
@@ -279,7 +279,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -292,6 +292,22 @@
        id="g56218"
        data-fragment-index="2"
        class="fragment fade-in">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:63.0609;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="67.125946"
+         y="61.276352"
+         id="text56206-2"
+         transform="translate(-1.247442,-9.8351893)"><tspan
+           x="67.125946"
+           y="61.276352"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Selection of anomaly </tspan></tspan><tspan
+           x="67.125946"
+           y="68.3319"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">detection tasks and </tspan></tspan><tspan
+           x="67.125946"
+           y="75.38745"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">benchmark datasets</tspan></tspan></text>
       <g
          id="g56202"
          transform="matrix(-1,0,0,1,57.866167,-8.9706444)">
@@ -306,40 +322,14 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:63.0609;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:63.0609;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="67.125946"
          y="61.276352"
          id="text56206"
-         transform="translate(-5.1162643,-5.6415626)"><tspan
+         transform="translate(-0.91533385,14.780471)"><tspan
            x="67.125946"
            y="61.276352"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start">Experimental design</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:60.5121;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="59.024742"
-         y="80.247292"
-         id="text56208"
-         transform="translate(3.2664582,-12.54018)"><tspan
-           x="59.024742"
-           y="80.247292"><tspan>Assessment of the </tspan></tspan><tspan
-           x="59.024742"
-           y="87.302845"><tspan>new ADA for data </tspan></tspan><tspan
-           x="59.024742"
-           y="94.358394"><tspan>transmission.</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:57.4762;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="57.915955"
-         y="100.06767"
-         id="text56210"
-         transform="translate(4.6662824,-9.814197)"><tspan
-           x="57.915955"
-           y="100.06767"><tspan>Assessment the </tspan></tspan><tspan
-           x="57.915955"
-           y="107.12323"><tspan>new ADA using </tspan></tspan><tspan
-           x="57.915955"
-           y="114.17878"><tspan>deep learning</tspan></tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Experimental Design</tspan></tspan></text>
       <g
          id="g56216"
          transform="matrix(-1,0,0,1,52.203217,-8.6794645)">
@@ -354,7 +344,7 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:'San Francisco Display';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
          x="80.209763"
          y="69.327911"
          id="text56707"><tspan
@@ -362,50 +352,61 @@
            id="tspan56705"
            x="80.209763"
            y="69.327911"
-           style="stroke-width:0.264583" /></text>
+           style="stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-family:'San Francisco Display';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:63.0609;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="67.125946"
+         y="61.276352"
+         id="text56206-7"
+         transform="translate(-2.400859,25.459999)"><tspan
+           x="67.125946"
+           y="61.276352"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Experiment execution</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:63.0609;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="67.125946"
+         y="61.276352"
+         id="text56206-7-0"
+         transform="translate(-0.58736189,34.082525)"><tspan
+           x="67.125946"
+           y="61.276352"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Results analysis and </tspan></tspan><tspan
+           x="67.125946"
+           y="68.3319"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">reporting</tspan></tspan></text>
     </g>
     <g
        id="g56228"
        class="fragment fade-in"
-       data-fragment-index="3">
+       data-fragment-index="3"
+       transform="translate(3.003226,0.60064682)">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:43.9012;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:43.9012;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="90.283577"
          y="60.714725"
          id="text56222"
-         transform="translate(37.414111,-9.5369397)"><tspan
+         transform="translate(36.613249,-7.9352066)"><tspan
            x="90.283577"
            y="60.714725"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">D.4.1 Journal </tspan></tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">D.4.1 Journal </tspan></tspan><tspan
            x="90.283577"
-           y="67.770275"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">paper with </tspan></tspan><tspan
+           y="67.770274"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">paper with new </tspan></tspan><tspan
            x="90.283577"
-           y="74.825824"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">ADA on </tspan></tspan><tspan
+           y="74.825827"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">ADA based on </tspan></tspan><tspan
            x="90.283577"
-           y="81.881374"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">streams results</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:45.2426;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="91.681999"
-         y="98.656609"
-         id="text56226"
-         transform="translate(35.822748,-13.217867)"><tspan
-           x="91.681999"
-           y="98.656609"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">D.4.2 Journal </tspan></tspan><tspan
-           x="91.681999"
-           y="105.71216"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">paper with ADA </tspan></tspan><tspan
-           x="91.681999"
-           y="112.76771"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">results with </tspan></tspan><tspan
-           x="91.681999"
-           y="119.82326"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">deep learning</tspan></tspan></text>
+           y="81.881377"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">kernel neural </tspan></tspan><tspan
+           x="90.283577"
+           y="88.936927"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">density </tspan></tspan><tspan
+           x="90.283577"
+           y="95.992476"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">estimation</tspan></tspan></text>
     </g>
     <g
        id="g56248"
@@ -425,15 +426,17 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:34.874;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:34.874;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
          x="-13.514608"
          y="70.661652"
          id="text56236"
          transform="translate(32.598051,1.2206782)"><tspan
            x="-13.514608"
-           y="70.661652"><tspan>Systematic </tspan></tspan><tspan
+           y="70.661652"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Systematic </tspan></tspan><tspan
            x="-13.514608"
-           y="77.717205"><tspan>evaluation</tspan></tspan></text>
+           y="77.7172"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">evaluation</tspan></tspan></text>
       <g
          id="g56242"
          transform="translate(55.921192,-7.8408014)">
