@@ -240,11 +240,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="191.11525"
-     inkscape:cy="193.09416"
+     inkscape:zoom="1.979899"
+     inkscape:cx="296.14863"
+     inkscape:cy="177.54092"
      inkscape:document-units="mm"
-     inkscape:current-layer="g55812"
+     inkscape:current-layer="g55654"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:snap-others="false"
@@ -279,7 +279,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -306,40 +306,39 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:63.0609;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="67.125946"
-         y="61.276352"
-         id="text55570"
-         transform="translate(-5.1162643,-5.6415626)"><tspan
-           x="67.125946"
-           y="61.276352"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start">Review of </tspan><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start">Anomaly </tspan></tspan><tspan
-           x="67.125946"
-           y="68.331901"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start">Detection</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:60.5121;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:60.5121;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
          x="59.024742"
          y="80.247292"
          id="text55580"
-         transform="translate(2.983299,-6.0277733)"><tspan
+         transform="translate(3.1835228,-23.446563)"><tspan
            x="59.024742"
-           y="80.247292"><tspan>Design of ADA on </tspan></tspan><tspan
+           y="80.247292"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Design of ADA based </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">on </tspan></tspan><tspan
            x="59.024742"
-           y="87.302845"><tspan>streams</tspan></tspan></text>
+           y="87.30284"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">new neural </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">density </tspan></tspan><tspan
+           x="59.024742"
+           y="94.35839"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">algorithm </tspan></tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:57.4762;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:57.4762;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
          x="57.915955"
          y="100.06767"
          id="text55590"
-         transform="translate(4.6662824,-7.2658683)"><tspan
+         transform="translate(4.4660586,-13.472561)"><tspan
            x="57.915955"
-           y="100.06767"><tspan>Design of ADA  </tspan></tspan><tspan
+           y="100.06767"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Integration of ADA </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">with </tspan></tspan><tspan
            x="57.915955"
-           y="107.12323"><tspan>using deep learning</tspan></tspan></text>
+           y="107.12322"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">deep features </tspan></tspan><tspan
+           x="57.915955"
+           y="114.17877"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">extractors</tspan></tspan></text>
       <g
          id="g55596"
          transform="matrix(-1,0,0,1,52.203217,-8.6794645)">
@@ -359,36 +358,40 @@
        data-fragment-index="3">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:39.9372;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:43.5411;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
          x="90.283577"
          y="60.714725"
          id="text55612"
          transform="translate(37.414111,-9.5369397)"><tspan
            x="90.283577"
            y="60.714725"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">D.3.1 New </tspan></tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">D.3.1 New ADA </tspan></tspan><tspan
            x="90.283577"
-           y="67.770275"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">ADA on </tspan></tspan><tspan
+           y="67.770274"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">based on </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">neural </tspan></tspan><tspan
            x="90.283577"
-           y="74.825824"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">streams</tspan></tspan></text>
+           y="74.825827"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">density </tspan></tspan><tspan
+           x="90.283577"
+           y="81.881377"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">estimation</tspan></tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:43.5437;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:43.5437;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
          x="91.681999"
          y="98.656609"
          id="text55626"
          transform="translate(35.822748,-13.217867)"><tspan
            x="91.681999"
            y="98.656609"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">D.3.2 New ADA </tspan></tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">D.3.2 New ADA </tspan></tspan><tspan
            x="91.681999"
            y="105.71216"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">with deep </tspan></tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">with deep </tspan></tspan><tspan
            x="91.681999"
            y="112.76771"><tspan
-             style="font-size:5.64444px;text-align:start;text-anchor:start;stroke-width:0.264583">learning</tspan></tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">learning</tspan></tspan></text>
     </g>
     <g
        id="g55654"
@@ -408,17 +411,24 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;white-space:pre;inline-size:34.874;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:34.874;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
          x="-13.514608"
          y="70.661652"
          id="text55644"
-         transform="translate(33.164369,-2.460241)"><tspan
+         transform="translate(35.552732,-4.061974)"><tspan
            x="-13.514608"
-           y="70.661652"><tspan>Anomaly </tspan></tspan><tspan
+           y="70.661652"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Anomaly </tspan></tspan><tspan
            x="-13.514608"
-           y="78.59915"><tspan>Detection </tspan></tspan><tspan
+           y="77.7172"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Detection </tspan></tspan><tspan
            x="-13.514608"
-           y="86.53665"><tspan>Algorithm</tspan></tspan></text>
+           y="84.77275"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Algorithm
+</tspan></tspan><tspan
+           x="-13.514608"
+           y="91.828299"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">(ADA)</tspan></tspan></text>
       <g
          id="g55650"
          transform="translate(55.921192,-7.8408014)">
