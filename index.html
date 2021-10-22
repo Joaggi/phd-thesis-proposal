@@ -206,6 +206,17 @@
 						</ul>
 					</div>
 				</div>
+				<aside class="notes">
+				F. Y. Edgeworth, “On discordant observations,” The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, vol. 23, no. 5, pp. 364–375, 1887.
+
+					Kuhn [14] claims that persistent anomalies drive scientific
+					revolutions (see section VI ‘Anomaly and the Emergence of
+					Scientific Discoveries’ in [14]).
+
+					T. S. Kuhn, The Structure of Scientific Revolutions. Chicago: University of Chicago Press, 1970.
+
+					For applications to be successful on such complex and high-dimensional data, a meaningful representation of the data is crucial [80].
+				</aside>	
 			</section>
 
 			<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
@@ -222,6 +233,13 @@
 				<img src="resources/anomaly_detection_background.png" width="80%"> </img><br>
 				Ruff, L., Kauffmann, J. R., Vandermeulen, R. A., Montavon, G., Samek, W., Kloft, M., ... & Müller, K. R.
 				(2021). A unifying review of deep and shallow anomaly detection. Proceedings of the IEEE.
+
+				<aside class="notes">
+					Principal Component Analysis (PCA) [1]–[5], the One-Class Support Vector Machine (OCSVM) [6], Support Vector Data Description (SVDD) [7],
+					nearest neighbor algorithms [8]–[10], and Kernel Density Estimation (KDE) [11], [12].
+				  </aside>
+
+				  
 			</section>
 
 
@@ -233,12 +251,13 @@
 			<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
 				aria-hidden="true">
 				<h1 data-auto-animate-target="11">Problem Statement</h1>
+				<h4>Challenges of density estimation methods</h4>
 				<ul>
-					<li>Kernel density estimation is a memory based algorithm.</li>
-					<li>There not exist a easy, efficient, scalable, and neural based density estimation algorithm.</li>
-					<li>Current state of the art neural density estimation methods are hard to train.</li>
-					<li>Kernel density estimation is good in anomaly detection tasks but cannot be integrate with other deep learning models for build a end-to-end algorithm.</li>
-					<li>Neural density estimation methods are really complicated models to train in anomaly detection tasks.</li>
+					<li>Efficiency and scalability.</li>
+					<li>Simplicity.</li>
+					<li>Ability to produce a good estimation of the density.</li>
+					<li>Integrability with deep models</li>
+					<li>Good for anomaly detection</li>
 				</ul>
 			</section>
 
@@ -289,6 +308,14 @@
 							<td>Differentiable</td>
 							<td><span style="color:red">&#10006;</span></td>
 							<td><span style="color:green">&#10003;</span></td>
+							<td><span style="color:green">&#10003;</span></td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>Good for anomaly detection</td>
+							<td><span style="color:green">&#10003;</span></td>
+							<td><span style="color:green">&#10003;?</span></td>
 							<td><span style="color:green">&#10003;</span></td>
 							<td></td>
 						</tr>
@@ -347,6 +374,13 @@
 							<td style="background-color: cornsilk;"><span style="color:green">&#10003;</span></td>
 						</tr>
 
+						<tr>
+							<td>Good for anomaly detection</td>
+							<td><span style="color:green">&#10003;</span></td>
+							<td><span style="color:green">&#10003;?</span></td>
+							<td><span style="color:green">&#10003;</span></td>
+							<td style="background-color: cornsilk;"><span style="color:green">&#10003;</span></td>
+						</tr>
 					</tbody>
 				</table>
 			</section>
@@ -642,7 +676,7 @@
 
 				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
 					aria-hidden="true">
-					<h2 data-auto-animate-target="11">¿Qué métodos estadísticos se van a usar para medir la eficiencia de la estimación de densidad?</h2>
+					<h2 data-auto-animate-target="11">¿Qué métodos estadísticos se van a usar para medir la eficiencia de la estimación de densidad? ¿Es eficiencia el término adecuado?</h2>
 					<div class="text-image">
 						<ul>
 							<li>We will measure <b>efficiency</b> and <b>effectiveness</b>.</li>
@@ -650,11 +684,11 @@
 								<ul>
 									<li><b>Efficiency:</b> time</li>
 									<li><b>Effectiveness:</b> mean average precision, log mean average precision, spearman correlation, likelihood, log-likelihood.</li>
-									<li><b>Without true density:</b> proxy problem like classification.</li>
+									<li><b>Without true density:</b> proxy problem like classification or anomaly detection.</li>
 								</ul> 
 							
-							<li><b>Metrics Estimation:</b> cross-validation</li>
-							<li><b>Hypotheses Testing:</b> statistical significance</li>
+							<li><b>Metric estimation:</b> cross-validation</li>
+							<li><b>Statistical significance:</b> hypotheses Testing or confidence intervals </li>
 						</ul>
 					</div>
 				</section>
@@ -663,8 +697,7 @@
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Es importante aclarar exactamente qué es anómalo y qué es atípico.
-					</h2>
+					Es importante aclarar exactamente qué es anómalo y qué es atípico.
 					<div class="text-image">
 						<ul>
 							<li>
@@ -690,14 +723,41 @@
 
 						Chandola, V., Banerjee, A., & Kumar, V. (2009). Anomaly detection: A
 							survey. ACM computing surveys (CSUR), 41(3), 1-58.
+
+							<aside  class="notes">A point anomaly is an individual anomalous data point
+								x ∈ A, for example an illegal transaction in fraud detection
+								or an image of a damaged product in manufacturing. This
+								is arguably the most commonly studied type in anomaly
+								detection research.
+								A conditional or contextual anomaly is a data instance
+								that is anomalous in a specific context such as time, space,
+								or the connections in a graph. A price of $1 per Apple
+								Inc. stock might have been normal before 1997, but as of
+								today (2021) would be an anomaly. A mean daily temperature
+								below freezing point would be an anomaly in the Amazon
+								rainforest, but not in the Antarctic desert. For this anomaly
+								type, the normal law P
+								+
+								is more precisely a conditional
+								distribution P
+								+ ≡ P
+								+
+								X|T with conditional pdf p
+								+
+								(x |t) that
+								depends on some contextual variable T. Time-series anomalies
+								[169], [195], [201]–[204] are the most prominent example of
+								contextual anomalies. Other examples include spatial [205],
+								[206], spatio-temporal [192], or graph-based [171], [207],
+								[208] anomalies.</aside>
 					</div>
 				</section>
 
 
 				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
 					aria-hidden="true">
-					<h3 data-auto-animate-target="11">¿Con base en qué metodología/definición se va identificar y luego
-						a evaluar la precisión en la detección?</h3>
+					 ¿Con base en qué metodología/definición se va identificar y luego
+						a evaluar la precisión en la detección?
 					<div class="text-image">
 						<div class="text-image">
 							<ul>
@@ -717,9 +777,9 @@
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					<span> ¿Puedes poner un ejemplo de una arquitectura convolucional que integrase un algoritmo como
+					 ¿Puedes poner un ejemplo de una arquitectura convolucional que integrase un algoritmo como
 						los que se pretenden desarrollar? Es decir, ¿en qué capa(s) se integraría la estimación de
-						densidad?</span>
+						densidad?
 					<div class="text-image">
 						<img src="resources/ec_raul_dmkde_model.svg" alt="Classification dmkde"></img>
 					</div>
@@ -727,9 +787,9 @@
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					<h4> ¿cómo afectaría a la función de pérdida?, ¿cómo afectaría al
+					¿cómo afectaría a la función de pérdida?, ¿cómo afectaría al
 						cómputo de los gradientes y el proceso de optimización? y, finalmente, ¿qué ventajas
-						tendría?</h4>
+						tendría?
 					<div class="text-image">
 						<ul>
 							<li> ¿cómo afectaría a la función de pérdida?
@@ -752,9 +812,9 @@
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					<h4> ¿cómo afectaría a la función de pérdida?, ¿cómo afectaría al
+					¿cómo afectaría a la función de pérdida?, ¿cómo afectaría al
 						cómputo de los gradientes y el proceso de optimización? y, finalmente, ¿qué ventajas
-						tendría?</h4>
+						tendría?
 					<div class="text-image">
 						<img src="resources/classification_dmkde.png" alt="Classification dmkde"/>
 					</div>
@@ -780,7 +840,7 @@
 								fracaso de alguna de las actividades
 
 								<br><br>
-								Risk are associated with experimentals setups.
+								Risks are associated with the difficulty of reproducing experimental results of baseline methods.
 					<div class="text-image">
 						<ul>
 							<li>
@@ -811,10 +871,10 @@
 							fracaso de alguna de las actividades
 				<div class="text-image">
 					<br><br>
-					Risk are associated with experimentals setups.
+					Risks are associated with experimentals setups.
 					<ul>
 						<li>
-							<b>Risk 3:</b> issues with experimental reproducibility
+							<b>Risk 3:</b> issues with experimental reproducibility<br>
 							To mitigate we will:
 
 							<ul>
@@ -830,101 +890,32 @@
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					- ¿Qué relación tiene el teorema de Parzen con el nivel incoherencia entre los espacios
-								de representación de los datos?
+								- ¿Qué relación tiene el teorema de Parzen con el nivel incoherencia entre los espacios
+									de representación de los datos?
 								- En particular el teorema de Bochner define propiedades interesantes en funciones
-								(Kernels imagino) que se puedan expresar como el producto punto de medidas p(w) y bases
-								del tipo senos-cosenos, como entonces entiende o elabora uno un vínculo entre este
-								resultado y el teorema de Parzen?? que ventajas teóricas tendría tal vínculo?? y cómo
-								explotarlo en términos del proyecto de tesis?
+									(Kernels imagino) que se puedan expresar como el producto punto de medidas p(w) y bases
+									del tipo senos-cosenos, como entonces entiende o elabora uno un vínculo entre este
+									resultado y el teorema de Parzen?? que ventajas teóricas tendría tal vínculo?? y cómo
+									explotarlo en términos del proyecto de tesis?
 					<div class="text-image">
 						<ul>
 							<li>
-								Incoherence cames from the fact that 
+								Mutual incoherence is defined as:
+
+								Let \(\Phi_1\) and \(\Phi_2\) be orthonormal bases for \(R^N\) and let
+
+								\[M(\Phi_1, \Phi_2) = \sup \{|\langle \phi_1, \phi_2 \rangle | : \phi_1 \in \Phi_1, \phi_2 \in \Phi_2\}\]
+								<br><br>
+
+								M is a measure of the mutual coherence of two bases. M(Spikes, Complex sinusoids) = \(1/\sqrt{N}\)
 							</li>
 						</ul>
 					</div>
+					Donoho, D. L., & Huo, X. (2001). Uncertainty principles and ideal atomic decomposition. IEEE transactions on information theory, 47(7), 2845-2862.
 				</section>
 
 				<section class="title-slide has-dark-background present" style="top: 312px; display: block;">
 					<h1>Random Fourier Features</h1>
-				</section>
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Kernel Methods</h1>
-					<div class="text-image">
-						<img src="resources/feature_space.png" alt="Websocket" width="30%" style="float: right">
-						<div style="width: 70%;">
-							<ul>
-								<li>Feature space induced by a kernel function.</li>
-
-							</ul>
-						</div>
-					</div>
-				</section>
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Kernel Methods</h1>
-					<div class="text-image">
-						<img src="resources/gaussian_kernel.png" alt="Websocket" width="40%" style="float: right">
-						<div style="width: 60%;">
-							<ul>
-								<li>Feature space induced by a kernel function.</li>
-								<li>High or infinite dimensional embedded feature space.</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Kernel Methods</h1>
-					<div class="text-image">
-						<div class="container">
-							<div class="left-col">
-								<ul>
-									<li>Feature space induced by a kernel function.</li>
-									<li>High or infinite dimensional embedded feature space.</li>
-									<li>Problem: efficiency \(O(N^2)\)</li>
-								</ul>
-							</div>
-							<div class="right-col">
-								\[\textbf{K}= \begin{bmatrix}k(\textbf{x}_1, \textbf{x}_1) & \cdots & k(\textbf{x}_1,
-								\textbf{x}_N)
-								\\ & \vdots
-								\\ \cdots& k(\textbf{x}_i, \textbf{x}_j) & \cdots
-								\\ & \vdots &
-								\\ k(\textbf{x}_N, \textbf{x}_1) & \cdots & k(\textbf{x}_N, \textbf{x}_N)
-
-								\end{bmatrix}\]
-
-							</div>
-
-
-						</div>
-					</div>
-				</section>
-
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Kernel Methods</h1>
-					<h2>Several Methods</h2>
-					<div class="text-image">
-						<img src="resources/gaussian_processes.png" alt="Websocket" width="45%" style="float: right">
-						<div style="width: 55%;">
-
-							<ul>
-								<li>Support Vector Machines</li>
-								<li>Kernel ridge regression</li>
-								<li>Gaussian processes</li>
-								<li>And many more</li>
-							</ul>
-							<br>
-							(nowadays called shallow methods)
-
-						</div>
-					</div>
 				</section>
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
@@ -1048,8 +1039,7 @@
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					<h1 data-auto-animate-target="">KDE using RFF</h1>
-					<h2 data-auto-animate-target="">Linear strategy</h2>
+					<h1 data-auto-animate-target="">KDE using RFF: Linear strategy</h1>
 					<div class="text-image">
 						<img src="resources/kde_linear.svg"> </img>
 					</div>
@@ -1057,8 +1047,7 @@
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					<h2 data-auto-animate-target="">KDE using RFF</h2>
-					<h3 data-auto-animate-target="">Quadratic strategy</h3>
+					<h2 data-auto-animate-target="">KDE using RFF: Quadratic strategy</h2>
 					<div class="text-image">
 						<img src="resources/kde_quadratic.svg"> </img>
 					</div>
@@ -1066,8 +1055,7 @@
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					<h2 data-auto-animate-target="">KDE using RFF</h2>
-					<h3 data-auto-animate-target="">Quadratic strategy</h3>
+					<h2 data-auto-animate-target="">KDE using RFF: Quadratic strategy</h2>
 					<div class="text-image">
 						<img src="resources/kde_quadratic_2.svg"> </img>
 					</div>
@@ -1553,8 +1541,8 @@
 			center: true,
 			hash: true,
 			margin: 0.04,
-			// minScale: 2.0,
-    		// maxScale: 2.0,
+			minScale: 2.0,
+    		maxScale: 2.0,
 			autoAnimate: false,
 			transition: 'none',
 			slideNumber: 'c/t',
