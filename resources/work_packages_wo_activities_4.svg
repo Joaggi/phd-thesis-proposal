@@ -245,14 +245,14 @@
        y2="-8001.5151" />
     <mask
        maskUnits="userSpaceOnUse"
-       id="mask1884">
+       id="mask1066">
       <rect
-         style="display:inline;fill:#b3b3b3;fill-opacity:0.653045;stroke:#999999;stroke-width:0.300606;stroke-linejoin:bevel"
-         id="rect1886"
-         width="159.33635"
-         height="36.804146"
-         x="43.409897"
-         y="-20.411533" />
+         style="display:inline;fill:#b3b3b3;fill-opacity:0.653045;stroke:#999999;stroke-width:0.235009;stroke-linejoin:bevel"
+         id="rect1068"
+         width="123.33506"
+         height="29.060238"
+         x="58.793736"
+         y="-15.038499" />
     </mask>
   </defs>
   <sodipodi:namedview
@@ -262,9 +262,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="525.83587"
-     inkscape:cy="203.80579"
+     inkscape:zoom="1.979899"
+     inkscape:cx="471.2098"
+     inkscape:cy="94.794893"
      inkscape:document-units="mm"
      inkscape:current-layer="g54472"
      inkscape:document-rotation="0"
@@ -284,9 +284,9 @@
      inkscape:snap-object-midpoints="false"
      inkscape:snap-center="true"
      inkscape:snap-text-baseline="false"
-     inkscape:window-width="2560"
-     inkscape:window-height="1372"
-     inkscape:window-x="1920"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
@@ -302,7 +302,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -398,7 +398,7 @@
         </g>
         <g
            id="g1882"
-           mask="url(#mask1884)">
+           mask="url(#mask1066)">
           <g
              id="g55782"
              transform="translate(44.023708,-14.672592)"

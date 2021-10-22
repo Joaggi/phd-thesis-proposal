@@ -207,7 +207,8 @@
 					</div>
 				</div>
 				<aside class="notes">
-				F. Y. Edgeworth, “On discordant observations,” The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, vol. 23, no. 5, pp. 364–375, 1887.
+					F. Y. Edgeworth, “On discordant observations,” The London, Edinburgh, and Dublin Philosophical
+					Magazine and Journal of Science, vol. 23, no. 5, pp. 364–375, 1887.
 
 					Kuhn [14] claims that persistent anomalies drive scientific
 					revolutions (see section VI ‘Anomaly and the Emergence of
@@ -215,8 +216,9 @@
 
 					T. S. Kuhn, The Structure of Scientific Revolutions. Chicago: University of Chicago Press, 1970.
 
-					For applications to be successful on such complex and high-dimensional data, a meaningful representation of the data is crucial [80].
-				</aside>	
+					For applications to be successful on such complex and high-dimensional data, a meaningful
+					representation of the data is crucial [80].
+				</aside>
 			</section>
 
 			<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
@@ -235,11 +237,12 @@
 				(2021). A unifying review of deep and shallow anomaly detection. Proceedings of the IEEE.
 
 				<aside class="notes">
-					Principal Component Analysis (PCA) [1]–[5], the One-Class Support Vector Machine (OCSVM) [6], Support Vector Data Description (SVDD) [7],
+					Principal Component Analysis (PCA) [1]–[5], the One-Class Support Vector Machine (OCSVM) [6],
+					Support Vector Data Description (SVDD) [7],
 					nearest neighbor algorithms [8]–[10], and Kernel Density Estimation (KDE) [11], [12].
-				  </aside>
+				</aside>
 
-				  
+
 			</section>
 
 
@@ -257,7 +260,7 @@
 					<li>Simplicity.</li>
 					<li>Ability to produce a good estimation of the density.</li>
 					<li>Integrability with deep models</li>
-					<li>Good for anomaly detection</li>
+					<li>Good for anomaly detection?</li>
 				</ul>
 			</section>
 
@@ -314,9 +317,9 @@
 
 						<tr>
 							<td>Good for anomaly detection</td>
-							<td><span style="color:green">&#10003;</span></td>
 							<td><span style="color:green">&#10003;?</span></td>
-							<td><span style="color:green">&#10003;</span></td>
+							<td><span style="color:green">&#10003;?</span></td>
+							<td><span style="color:green">&#10003;?</span></td>
 							<td></td>
 						</tr>
 
@@ -376,10 +379,10 @@
 
 						<tr>
 							<td>Good for anomaly detection</td>
-							<td><span style="color:green">&#10003;</span></td>
 							<td><span style="color:green">&#10003;?</span></td>
-							<td><span style="color:green">&#10003;</span></td>
-							<td style="background-color: cornsilk;"><span style="color:green">&#10003;</span></td>
+							<td><span style="color:green">&#10003;?</span></td>
+							<td><span style="color:green">&#10003;?</span></td>
+							<td style="background-color: cornsilk;"><span style="color:green">&#10003;?</span></td>
 						</tr>
 					</tbody>
 				</table>
@@ -389,7 +392,7 @@
 			<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
 				aria-hidden="true">
 				<h1 data-auto-animate-target="11">Hypotheses</h1>
-				<ul >
+				<ul>
 					<li style="font-size: 32px;">
 						It is possible to build an efficient non-parametric density estimation model that combines
 						the
@@ -440,7 +443,7 @@
 			<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 				aria-hidden="true">
 				<h1 data-auto-animate-target="">Main Goal</h1>
-				<div class="text-image"  style="font-size: 32px;">
+				<div class="text-image" style="font-size: 32px;">
 					To develop a non-parametric method for density estimation that is efficient, can be integrable
 					with other deep learning frameworks, and can be used for solving anomaly detection tasks.
 
@@ -577,9 +580,9 @@
 						</div>
 					</div>
 
-					
 
-					
+
+
 
 
 				</div>
@@ -621,7 +624,8 @@
 				aria-hidden="true">
 				<h2 data-auto-animate-target="11">DMKDE: Comparison to fast KDE</h2>
 				<img src="resources/comparison_to_fast_kde.svg" alt="Kde vs dmkde">
-				<br><b>Juan Felipe Osorio-Ramírez</b>, On the performance of Kernel Density Estimation Using Density Matrices, Trabajo de grado de estadística, Universidad Nacional de Colombia, 2021
+				<br><b>Juan Felipe Osorio-Ramírez</b>, On the performance of Kernel Density Estimation Using Density
+				Matrices, Trabajo de grado de estadística, Universidad Nacional de Colombia, 2021
 			</section>
 
 
@@ -676,28 +680,52 @@
 
 				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
 					aria-hidden="true">
-					<h2 data-auto-animate-target="11">¿Qué métodos estadísticos se van a usar para medir la eficiencia de la estimación de densidad? ¿Es eficiencia el término adecuado?</h2>
+					<span style="color:darkblue; font-size:30px;">¿Qué métodos estadísticos se van a usar para medir la
+						eficiencia de la estimación de densidad? ¿Es eficiencia el término adecuado?</span>
 					<div class="text-image">
 						<ul>
 							<li>We will measure <b>efficiency</b> and <b>effectiveness</b>.</li>
-							<li><b>Metrics:</b> 
+							<li><b>Metrics:</b>
 								<ul>
 									<li><b>Efficiency:</b> time</li>
-									<li><b>Effectiveness:</b> mean average precision, log mean average precision, spearman correlation, likelihood, log-likelihood.</li>
-									<li><b>Without true density:</b> proxy problem like classification or anomaly detection.</li>
-								</ul> 
-							
+									<li><b>Effectiveness:</b> mean average precision, log mean average precision,
+										spearman correlation, likelihood, log-likelihood.</li>
+									<li><b>Without true density:</b> proxy problem like classification or anomaly
+										detection.</li>
+								</ul>
+
 							<li><b>Metric estimation:</b> cross-validation</li>
 							<li><b>Statistical significance:</b> hypotheses Testing or confidence intervals </li>
 						</ul>
 					</div>
 				</section>
 
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<span style="color:darkblue; font-size:30px;">¿Con base en qué metodología/definición se va
+						identificar y luego
+						a evaluar la precisión en la detección?</span>
+					<div class="text-image">
+						<div class="text-image">
+							<ul>
+								<li>We will measure <b>efficiency</b> and <b>effectiveness</b>.</li>
+								<li><b>Metrics:</b>
+									<ul>
+										<li><b>Efficiency:</b> time</li>
+										<li><b>Effectiveness:</b> precision, recall, f1-score, confusion matrix.</li>
+									</ul>
+								<li><b>Metrics Estimation:</b> cross-validation</li>
+								<li><b>Hypotheses Testing:</b> statistical significance</li>
+							</ul>
+						</div>
+					</div>
+				</section>
 
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					Es importante aclarar exactamente qué es anómalo y qué es atípico.
+					<span style="color:darkblue; font-size:30px;">Es importante aclarar exactamente qué es anómalo y qué
+						es atípico.</span>
 					<div class="text-image">
 						<ul>
 							<li>
@@ -722,64 +750,46 @@
 						</ul>
 
 						Chandola, V., Banerjee, A., & Kumar, V. (2009). Anomaly detection: A
-							survey. ACM computing surveys (CSUR), 41(3), 1-58.
+						survey. ACM computing surveys (CSUR), 41(3), 1-58.
 
-							<aside  class="notes">A point anomaly is an individual anomalous data point
-								x ∈ A, for example an illegal transaction in fraud detection
-								or an image of a damaged product in manufacturing. This
-								is arguably the most commonly studied type in anomaly
-								detection research.
-								A conditional or contextual anomaly is a data instance
-								that is anomalous in a specific context such as time, space,
-								or the connections in a graph. A price of $1 per Apple
-								Inc. stock might have been normal before 1997, but as of
-								today (2021) would be an anomaly. A mean daily temperature
-								below freezing point would be an anomaly in the Amazon
-								rainforest, but not in the Antarctic desert. For this anomaly
-								type, the normal law P
-								+
-								is more precisely a conditional
-								distribution P
-								+ ≡ P
-								+
-								X|T with conditional pdf p
-								+
-								(x |t) that
-								depends on some contextual variable T. Time-series anomalies
-								[169], [195], [201]–[204] are the most prominent example of
-								contextual anomalies. Other examples include spatial [205],
-								[206], spatio-temporal [192], or graph-based [171], [207],
-								[208] anomalies.</aside>
+						<aside class="notes">A point anomaly is an individual anomalous data point
+							x ∈ A, for example an illegal transaction in fraud detection
+							or an image of a damaged product in manufacturing. This
+							is arguably the most commonly studied type in anomaly
+							detection research.
+							A conditional or contextual anomaly is a data instance
+							that is anomalous in a specific context such as time, space,
+							or the connections in a graph. A price of $1 per Apple
+							Inc. stock might have been normal before 1997, but as of
+							today (2021) would be an anomaly. A mean daily temperature
+							below freezing point would be an anomaly in the Amazon
+							rainforest, but not in the Antarctic desert. For this anomaly
+							type, the normal law P
+							+
+							is more precisely a conditional
+							distribution P
+							+ ≡ P
+							+
+							X|T with conditional pdf p
+							+
+							(x |t) that
+							depends on some contextual variable T. Time-series anomalies
+							[169], [195], [201]–[204] are the most prominent example of
+							contextual anomalies. Other examples include spatial [205],
+							[206], spatio-temporal [192], or graph-based [171], [207],
+							[208] anomalies.</aside>
 					</div>
 				</section>
 
 
-				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
-					aria-hidden="true">
-					 ¿Con base en qué metodología/definición se va identificar y luego
-						a evaluar la precisión en la detección?
-					<div class="text-image">
-						<div class="text-image">
-							<ul>
-								<li>We will measure <b>efficiency</b> and <b>effectiveness</b>.</li>
-								<li><b>Metrics:</b> 
-									<ul>
-										<li><b>Efficiency:</b> time</li>
-										<li><b>Effectiveness:</b> precision, recall, f1-score, confusion matrix.</li>
-									</ul> 
-								<li><b>Metrics Estimation:</b> cross-validation</li>
-								<li><b>Hypotheses Testing:</b> statistical significance</li>
-							</ul>
-						</div>
-					</div>
-				</section>
 
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					 ¿Puedes poner un ejemplo de una arquitectura convolucional que integrase un algoritmo como
+					<span style="color:darkblue; font-size:30px;">¿Puedes poner un ejemplo de una arquitectura
+						convolucional que integrase un algoritmo como
 						los que se pretenden desarrollar? Es decir, ¿en qué capa(s) se integraría la estimación de
-						densidad?
+						densidad?</span>
 					<div class="text-image">
 						<img src="resources/ec_raul_dmkde_model.svg" alt="Classification dmkde"></img>
 					</div>
@@ -787,44 +797,51 @@
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					¿cómo afectaría a la función de pérdida?, ¿cómo afectaría al
+					<span style="color:darkblue; font-size:30px;">¿cómo afectaría a la función de pérdida?, ¿cómo
+						afectaría al
 						cómputo de los gradientes y el proceso de optimización? y, finalmente, ¿qué ventajas
-						tendría?
+						tendría?</span>
 					<div class="text-image">
 						<ul>
 							<li> ¿cómo afectaría a la función de pérdida?
 								<br><br>
 								<b>Density estimation:</b> (Log-likelihood) \(log(f(W_i, X))\).
 								<br><br>
-								<b>Classification:</b> (Categorical Cross Entropy) \(-\sum_{i=1}^{\text{output size}} y_i \cdot \log \hat{y}_i\).
-								<li>
-									Gradient descent can normally be used as in a neural network, but the RFF layer is not trainable in the case of density estimation.
+								<b>Classification:</b> (Categorical Cross Entropy) \(-\sum_{i=1}^{\text{output size}}
+								y_i \cdot \log \hat{y}_i\).
+							<li>
+								Gradient descent can normally be used as in a neural network, but the RFF layer is not
+								trainable in the case of density estimation.
 
-								</li>
-	
+							</li>
+
 							</li>
 						</ul>
 
-						
+
 					</div>
 				</section>
 
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					¿cómo afectaría a la función de pérdida?, ¿cómo afectaría al
+					<span style="color:darkblue; font-size:30px;">¿cómo afectaría a la función de pérdida?, ¿cómo
+						afectaría al
 						cómputo de los gradientes y el proceso de optimización? y, finalmente, ¿qué ventajas
-						tendría?
+						tendría?</span>
 					<div class="text-image">
-						<img src="resources/classification_dmkde.png" alt="Classification dmkde"/>
+						<img src="resources/classification_dmkde.png" alt="Classification dmkde" />
 					</div>
 				</section>
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					¿Crees que podrás desarrollar algoritmos basados en RFF y matrices de densidad eficientes ambos en cómputo y utilización de memoria? El hecho de un algoritmo no sea basado en memoria (objetivo específico 1) no quiere decir que haga de por sí un uso eficiente de la misma. ¿Qué tipos de compromisos crees que vas a tener que enfrentar para conseguir ambas eficiencias?
+					¿Crees que podrás desarrollar algoritmos basados en RFF y matrices de densidad eficientes ambos en
+					cómputo y utilización de memoria? El hecho de un algoritmo no sea basado en memoria (objetivo
+					específico 1) no quiere decir que haga de por sí un uso eficiente de la misma. ¿Qué tipos de
+					compromisos crees que vas a tener que enfrentar para conseguir ambas eficiencias?
 					<div class="text-image">
-						<img src="resources/ec_raul_dmkde_sgd.svg" alt="Classification dmkde"/>
+						<img src="resources/ec_raul_dmkde_sgd.svg" alt="Classification dmkde" />
 					</div>
 				</section>
 
@@ -835,12 +852,13 @@
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
 
-					En los paquetes de trabajo me quedó faltando lo más importante, el análisis de riesgo.
-								No veo en el proyecto una reflexión o un plan que ayude a mitigar la posibilidad de
-								fracaso de alguna de las actividades
+					<span style="color:darkblue; font-size:30px;">En los paquetes de trabajo me quedó faltando lo más
+						importante, el análisis de riesgo.
+						No veo en el proyecto una reflexión o un plan que ayude a mitigar la posibilidad de
+						fracaso de alguna de las actividades</span>
 
-								<br><br>
-								Risks are associated with the difficulty of reproducing experimental results of baseline methods.
+					<br><br>
+					Risks are associated with the difficulty of reproducing experimental results of baseline methods.
 					<div class="text-image">
 						<ul>
 							<li>
@@ -853,145 +871,69 @@
 								<br><br>
 
 								To mitigate we will:
-									<ul>
-										<li>contact authors</li>
-										<li>create our own implementations</li>
-										<li>focus only on public algorithms</li>
-									</ul>
+								<ul>
+									<li>contact authors</li>
+									<li>create our own implementations</li>
+									<li>focus only on public algorithms</li>
+								</ul>
 							</li>
-							
+
 						</ul>
 					</div>
 				</section>
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-				aria-hidden="true">
+					aria-hidden="true">
 
-				En los paquetes de trabajo me quedó faltando lo más importante, el análisis de riesgo.
-							No veo en el proyecto una reflexión o un plan que ayude a mitigar la posibilidad de
-							fracaso de alguna de las actividades
-				<div class="text-image">
-					<br><br>
-					Risks are associated with experimentals setups.
-					<ul>
-						<li>
-							<b>Risk 3:</b> issues with experimental reproducibility<br>
-							To mitigate we will:
+					<span style="color:darkblue; font-size:30px;">En los paquetes de trabajo me quedó faltando lo más
+						importante, el análisis de riesgo.
+						No veo en el proyecto una reflexión o un plan que ayude a mitigar la posibilidad de
+						fracaso de alguna de las actividades</span>
+					<div class="text-image">
+						<br><br>
+						Risks are associated with experimentals setups.
+						<ul>
+							<li>
+								<b>Risk 3:</b> issues with experimental reproducibility<br>
+								To mitigate we will:
 
-							<ul>
-								<li>contact authors</li>
-								<li>report the results even if our results are different from the ones reported</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</section>
+								<ul>
+									<li>contact authors</li>
+									<li>report the results even if our results are different from the ones reported</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
 
 
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-								- ¿Qué relación tiene el teorema de Parzen con el nivel incoherencia entre los espacios
-									de representación de los datos?
-								- En particular el teorema de Bochner define propiedades interesantes en funciones
-									(Kernels imagino) que se puedan expresar como el producto punto de medidas p(w) y bases
-									del tipo senos-cosenos, como entonces entiende o elabora uno un vínculo entre este
-									resultado y el teorema de Parzen?? que ventajas teóricas tendría tal vínculo?? y cómo
-									explotarlo en términos del proyecto de tesis?
+					<span style="color:darkblue; font-size:30px;">¿Que relacion tiene el concepto de incoherencia con
+						los metodos utilizados en la tesis?
+						¿Qué ventajas teóricas tendría tal vínculo? y ¿Cómo explotarlo en términos del proyecto de
+						tesis?</span>
 					<div class="text-image">
 						<ul>
 							<li>
-								Mutual incoherence is defined as:
+								Mutual coherence is defined as:
 
 								Let \(\Phi_1\) and \(\Phi_2\) be orthonormal bases for \(R^N\) and let
 
-								\[M(\Phi_1, \Phi_2) = \sup \{|\langle \phi_1, \phi_2 \rangle | : \phi_1 \in \Phi_1, \phi_2 \in \Phi_2\}\]
+								\[M(\Phi_1, \Phi_2) = \sup \{|\langle \phi_1, \phi_2 \rangle | : \phi_1 \in \Phi_1,
+								\phi_2 \in \Phi_2\}\]
 								<br><br>
 
-								M is a measure of the mutual coherence of two bases. M(Spikes, Complex sinusoids) = \(1/\sqrt{N}\)
+								Two bases are incoherent if the mutual coherence is low. <br>
+								For instance, \[M(\text{Dirac}, \text{Fourier}) = 1/\sqrt{N}\]
 							</li>
 						</ul>
 					</div>
-					Donoho, D. L., & Huo, X. (2001). Uncertainty principles and ideal atomic decomposition. IEEE transactions on information theory, 47(7), 2845-2862.
+					Donoho, D. L., & Huo, X. (2001). Uncertainty principles and ideal atomic decomposition. IEEE
+					transactions on information theory, 47(7), 2845-2862.
 				</section>
 
-				<section class="title-slide has-dark-background present" style="top: 312px; display: block;">
-					<h1>Random Fourier Features</h1>
-				</section>
 
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Random Fourier Features</h1>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li><b>Idea</b>: feature space approximation. </li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Random Fourier Features</h1>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li><b>Idea</b>: feature space approximation. </li>
-								<li>Given \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\)
-									<br> builds an embedding \( \phi_{\text{rff}}: \mathbb R^d \rightarrow
-									\mathbb{R}^D\)
-									<br> such that \[ k(x,y) \approx \langle \phi_{\text{rff}}(x), \phi_{\text{rff}}(y)
-									\rangle \]
-
-								</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Random Fourier Features</h1>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li><b>Idea</b>: feature space approximation. </li>
-								<li>Given \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\)
-									<br> builds an embedding \( \phi_{\text{rff}}: \mathbb R^d \rightarrow
-									\mathbb{R}^D\)
-									<br> such that \[ k(x,y) \approx \langle \phi_{\text{rff}}(x), \phi_{\text{rff}}(y)
-									\rangle \]
-
-								</li>
-								<li><b>Result:</b> learn models involving non-linear kernels using linear
-									methods</li>
-
-							</ul>
-						</div>
-					</div>
-				</section>
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Random Fourier Features</h1>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li><b>Idea</b>: feature space approximation. </li>
-								<li>Given \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\)
-									<br> builds an embedding \( \phi_{\text{rff}}: \mathbb R^d \rightarrow
-									\mathbb{R}^D\)
-									<br> such that \[ k(x,y) \approx \langle \phi_{\text{rff}}(x), \phi_{\text{rff}}(y)
-									\rangle \]
-
-								</li>
-								<li><b>Result:</b> learn models involving non-linear kernels using linear
-									methods</li>
-								<li>Test of the time award NeurIPS 2017</li>
-							</ul>
-						</div>
-					</div>
-				</section>
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
@@ -999,15 +941,8 @@
 					<h2 data-auto-animate-target="">Method</h2>
 					<div class="text-image">
 						<ul>
-							<li>Sample \(\{w_1,\cdots,w_D\} \sim p\text{, }p(w)\) is the Fourier transform of \(k\)</li>
-							<li>Sample \(\{b_1,\cdots,b_D\} \sim Unif[0, 2\pi]\)
-								<br>
-								\[\phi_{\text{rff}}: \mathbb{R}^d \rightarrow \mathbb{R}^D\]
-								\[x \rightarrow \sqrt{\frac{2}{D}}(cos(w_1^Tx + b_1), \cdots, cos(w_D^Tx + b_D)))\]
-
-							</li>
 							<li>Based on the Bochner's theorem:<br>
-								<b>THeorem 1 (Bochner [])</b>. A continous kernel \(k(x,y)=k(x-y)\) on \(\mathbb{R}^d\)
+								<b>Theorem 1 (Bochner)</b>. A continous kernel \(k(x,y)=k(x-y)\) on \(\mathbb{R}^d\)
 								is
 								positive definite if and only if \(k(\delta)\) is the Fourier transform of a
 								non-negative
@@ -1015,9 +950,90 @@
 
 								\[k(x-y)=\int_{\mathbb{R}^d} p(w)e^{jw'(x-y)}dw=\mathbb{E}[\zeta_w(x)\zeta(y)^*]\]
 							</li>
+
+							<li>Sample \(\{w_1,\cdots,w_D\} \sim p\text{, }p(w)\) is the Fourier transform of \(k\)</li>
+							<li>Sample \(\{b_1,\cdots,b_D\} \sim Unif[0, 2\pi]\)
+								<br>
+								\[\phi_{\text{rff}}: \mathbb{R}^d \rightarrow \mathbb{R}^D\]
+								\[x \rightarrow \sqrt{\frac{2}{D}}(cos(w_1^Tx + b_1), \cdots, cos(w_D^Tx + b_D)))\]
+
+							</li>
 						</ul>
 					</div>
 				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Function Approximation via Sparse Random Features</h1>
+					<div class="text-image">
+						<div class="text-image">
+							<img src="resources/paper_function_approximation.png" alt="Classification dmkde" />
+						</div>
+					</div>
+				</section>
+
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+
+					<span style="color:darkblue; font-size:30px;">Are there time and space order bounds for the Kernel
+						density estimation is a memory-based
+						algorithm that explain the drawbacks in their memory space and time footprint?</span>
+					<div class="text-image">
+							<div class="right-col" style="margin-top: 150px;">
+								<table>
+									<thead>
+										<tr>
+											<th>Phase</th>
+											<th>KDE</th>
+											<th>DMKDE</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Training Phase</td>
+											<td style="color:green">\(O(1)\)</td>
+											<td style="color:red">\(O(ND^2)\)</td>
+										</tr>
+										<tr>
+											<td>Testing Phase</td>
+											<td style="color:red ">\(O(NM)\) </td>
+											<td style="color:green">\(O(M)\) </td>
+										</tr>
+									</tbody>
+								</table>
+								<br><br>
+								N: number of training points<br>M: number of testing points.
+							</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+
+					<span style="color:darkblue; font-size:30px;">Are there approximation and speed up order bounds for
+						the Random Fourier Features Kernel
+						Approximation Technique?</span>
+					<div class="text-image">
+						<ul>
+							
+							<li>Sample \(\{w_1,\cdots,w_D\} \sim p\text{, }p(w)\) is the Fourier transform of \(k\)</li>
+							<li>Sample \(\{b_1,\cdots,b_D\} \sim Unif[0, 2\pi]\)
+								<br>
+								\[\phi_{\text{rff}}: \mathbb{R}^d \rightarrow \mathbb{R}^D\]
+								\[x \rightarrow \sqrt{\frac{2}{D}}(cos(w_1^Tx + b_1), \cdots, cos(w_D^Tx + b_D)))\]
+
+							</li>
+							<li>
+								Training Time: \(O(d*D)\) <br>
+								Testing Time: \(O(M*d*D)\)
+								<br><br>
+								M: Number of testing points, d: number of features, D: number of RFF
+							</li>
+						</ul>
+					</div>
+				</section>
+
 
 			</section>
 
@@ -1270,7 +1286,8 @@
 			</section>
 
 
-			<section style="top: 0px; display: block;" class="stack present" data-previous-indexv="0" data-visibility="uncounted">
+			<section style="top: 0px; display: block;" class="stack present" data-previous-indexv="0"
+				data-visibility="uncounted">
 
 				<section class="title-slide has-dark-background present" style="top: 312px; display: block;">
 					<h1>Random Fourier Features</h1>
@@ -1542,7 +1559,7 @@
 			hash: true,
 			margin: 0.04,
 			// minScale: 2.0,
-    		// maxScale: 2.0,
+			// maxScale: 2.0,
 			autoAnimate: false,
 			transition: 'none',
 			slideNumber: 'c/t',
