@@ -46,7 +46,9 @@ $heading6Size: 0.7em;
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
-
+.reveal .controls {
+    margin-bottom: 30px;
+}
 
 .footnote {
     font-size: 0.5em !important;
@@ -96,4 +98,11 @@ h5{
 }
 h6{
     font-size: 20px;
+}
+
+.reveal .slide-number {
+
+    font-size: 24pt;
+    color: #ffffff; 
+
 }

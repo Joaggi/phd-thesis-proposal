@@ -1,0 +1,45 @@
+\[\rho_{\text{train}} = \begin{bmatrix}z_1 z_1 & \cdots & z_1 z_D
+								\\ & \vdots
+								\\ \cdots & z_i z_j & \cdots
+								\\ & \vdots &
+								\\ z_D z_1 & \cdots & z_D z_D
+
+								\end{bmatrix}\]
+
+
+\[ \begin{bmatrix}v_{1,1}  & \cdots & v_{1,\xi}
+								\\ & \vdots
+								\\ \cdots & v_{i,j} & \cdots
+								\\ & \vdots &
+								\\ v_{D,1}  & \cdots & v_{D,\xi}
+
+								\end{bmatrix}\]
+
+
+\[ \begin{bmatrix}\lambda_{1,1}  & \cdots & \lambda_{1,\xi}
+								\\ & \vdots
+								\\ \cdots & \lambda_{i,j} & \cdots
+								\\ & \vdots &
+								\\ \lambda_{\xi,1}  & \cdots & \lambda_{\xi,\xi}
+
+								\end{bmatrix}\]
+
+
+\[ \begin{bmatrix}v_{1,1}  & \cdots & v_{1,D}
+								\\ & \vdots
+								\\ \cdots & v_{i,j} & \cdots
+								\\ & \vdots &
+								\\ v_{\xi,1}  & \cdots & v_{\xi,D}
+
+								\end{bmatrix}\]
+
+
+\[ z := \phi_{\text{rff}}(x)=\cos(W_{\mathrm{rff}}x+b_{\mathrm{rff}}) \]
+\[ z'  := \frac{z}{\|z\|} \]
+\[ \tilde{y}_i   := \|\Lambda^{\frac{1}{2}}Vz'\|^2 \ \ \forall i=1\dots K \]
+\[ \tilde{y}'_i  := \frac{\pi_i y_i}{\sum_{j=i}^K y_j} \]
+
+
+
+
+Profe, pero yo aún sigo sin entender la pregunta :(. EN este caso eso se da cuando yo tengo menos filas que columnas, y yo quiero resolver un sistema de ecuaciones con respecto a los vectores lineales que capturo de un sistema dado. Y con respecto a eso quiero obtener un espacio de representación de la matriz original. Peron es que en este caso nosotros tenemos mas 

@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="520.87518mm"
+   width="537.6554mm"
    height="212.16354mm"
-   viewBox="0 0 520.87519 212.16356"
+   viewBox="0 0 537.6554 212.16356"
    version="1.1"
    id="svg95643"
    sodipodi:docname="comparison_to_fast_kde.svg"
@@ -215,9 +215,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="790.85382"
-     inkscape:cy="358.58321"
+     inkscape:zoom="0.35"
+     inkscape:cx="1736.1336"
+     inkscape:cy="409.08125"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -226,9 +226,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="2560"
-     inkscape:window-height="1372"
-     inkscape:window-x="1920"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
@@ -247,7 +247,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(263.95373,24.345699)">
+     transform="translate(280.73395,24.345699)">
     <image
        width="259.02185"
        height="188.84705"
@@ -2926,5 +2926,119 @@
          x="-47.173569"
          y="187.81784"
          style="fill:#1c4a8b;fill-opacity:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">DMKDE</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.264583;stroke-linejoin:bevel;stroke-miterlimit:3.9"
+       id="rect4442"
+       width="35.238022"
+       height="7.2077785"
+       x="114.23594"
+       y="152.04227"
+       ry="2.8597226" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="96.550362"
+       y="166.99094"
+       id="text4446"><tspan
+         sodipodi:role="line"
+         id="tspan4444"
+         x="96.550362"
+         y="166.99094"
+         style="stroke-width:0.264583">CPU Time</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.264583;stroke-linejoin:bevel;stroke-miterlimit:3.9"
+       id="rect4448"
+       width="7.6082096"
+       height="15.216419"
+       x="7.264854"
+       y="63.758331"
+       ry="2.8597226" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-12.959312"
+       y="71.03363"
+       id="text4452"><tspan
+         sodipodi:role="line"
+         id="tspan4450"
+         x="-12.959312"
+         y="71.03363"
+         style="stroke-width:0.264583">MAE</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.264583;stroke-linejoin:bevel;stroke-miterlimit:3.9"
+       id="rect4454"
+       width="35.078182"
+       height="7.7477956"
+       x="-146.82948"
+       y="149.74091"
+       ry="2.8597226" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round"
+       x="-156.40085"
+       y="165.08295"
+       id="text4446-3"><tspan
+         sodipodi:role="line"
+         id="tspan4444-6"
+         x="-156.40085"
+         y="165.08295"
+         style="stroke-width:0.264583">CPU Time</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.264583;stroke-linejoin:bevel;stroke-miterlimit:3.9"
+       id="rect4484"
+       width="7.1024566"
+       height="10.960653"
+       x="-261.43277"
+       y="63.487682"
+       ry="1.3449724" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:round"
+       x="-281.77264"
+       y="77.024437"
+       id="text4452-7"><tspan
+         sodipodi:role="line"
+         id="tspan4450-5"
+         x="-281.77264"
+         y="77.024437"
+         style="stroke-width:0.264583">MAE</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.264583;stroke-linejoin:bevel;stroke-miterlimit:3.9"
+       id="rect4510"
+       width="41.444721"
+       height="10.611451"
+       x="-150.3815"
+       y="-13.887245"
+       ry="1.3449724" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-155.3869"
+       y="-8.8143206"
+       id="text4514"><tspan
+         sodipodi:role="line"
+         id="tspan4512"
+         x="-155.3869"
+         y="-8.8143206"
+         style="stroke-width:0.264583">2D Mixture</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.264583;stroke-linejoin:bevel;stroke-miterlimit:3.9"
+       id="rect4516"
+       width="42.189087"
+       height="10.193337"
+       x="109.02627"
+       y="-10.973626"
+       ry="1.3449724" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="104.21277"
+       y="-6.9140558"
+       id="text4520"><tspan
+         sodipodi:role="line"
+         id="tspan4518"
+         x="104.21277"
+         y="-6.9140558"
+         style="stroke-width:0.264583">10D Mixture</tspan></text>
   </g>
 </svg>

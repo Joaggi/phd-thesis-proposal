@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="171.50867mm"
-   height="108.06801mm"
-   viewBox="0 0 171.50867 108.06801"
+   width="247.01979mm"
+   height="120.46912mm"
+   viewBox="0 0 247.0198 120.46914"
    version="1.1"
    id="svg51586"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
@@ -202,30 +202,52 @@
          style="stop-color:#EB6537"
          id="stop11740-1" />
     </linearGradient>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask87286">
+      <rect
+         style="fill:#b3b3b3;fill-opacity:0.993552;stroke:#999999;stroke-width:0.264999;stroke-linejoin:bevel"
+         id="rect87288"
+         width="112.97614"
+         height="24.633894"
+         x="-18.07873"
+         y="8.3423119" />
+    </mask>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#XMLID_3_-5"
-       id="linearGradient55820"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-1,0.0050054,-0.0050054,-1,-7573.2466,-7851.8403)"
-       x1="-7854.5342"
-       y1="-8001.5151"
-       x2="-7819.292"
-       y2="-8001.5151" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#XMLID_3_-5"
-       id="linearGradient55822"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-1,0.0050054,-0.0050054,-1,-7573.2466,-7851.8403)"
-       x1="-7854.5342"
-       y1="-8001.5151"
-       x2="-7819.292"
-       y2="-8001.5151" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#XMLID_3_-5"
+       xlink:href="#XMLID_3_"
        id="linearGradient55824"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0.0050054,-0.0050054,-1,-7573.2466,-7851.8403)"
+       x1="-7854.5342"
+       y1="-8001.5151"
+       x2="-7819.292"
+       y2="-8001.5151" />
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask88732">
+      <rect
+         style="display:inline;fill:#b3b3b3;fill-opacity:0.653045;stroke:#999999;stroke-width:0.300606;stroke-linejoin:bevel"
+         id="rect88734"
+         width="159.33635"
+         height="36.804146"
+         x="13.543514"
+         y="-9.4199495" />
+    </mask>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#XMLID_3_"
+       id="linearGradient95426"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0.0050054,-0.0050054,-1,-7573.2466,-7851.8403)"
+       x1="-7854.5342"
+       y1="-8001.5151"
+       x2="-7819.292"
+       y2="-8001.5151" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#XMLID_3_"
+       id="linearGradient95428"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(-1,0.0050054,-0.0050054,-1,-7573.2466,-7851.8403)"
        x1="-7854.5342"
@@ -240,11 +262,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="296.14863"
-     inkscape:cy="177.54092"
+     inkscape:zoom="1.4"
+     inkscape:cx="482.46832"
+     inkscape:cy="204.09254"
      inkscape:document-units="mm"
-     inkscape:current-layer="g55654"
+     inkscape:current-layer="g54495"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:snap-others="false"
@@ -270,7 +292,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:snap-page="false" />
   <metadata
      id="metadata51583">
     <rdf:RDF>
@@ -285,474 +308,473 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="g55812"
-     inkscape:label="WP3"
-     style="display:inline">
+     id="layer3"
+     inkscape:label="WP1"
+     style="display:inline"
+     transform="translate(46.467381,-0.43408229)">
     <g
-       id="g55598"
+       id="g54148"
+       class="fragment fade-in"
        data-fragment-index="2"
-       class="fragment fade-in">
+       style="display:inline"
+       transform="translate(74.379823,-8.1573317)">
       <g
-         id="g55560"
-         transform="matrix(-1,0,0,1,57.866167,-8.9706444)">
-        <path
-           style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.362896"
-           id="path55556"
-           d="m 1.0734314,83.373223 c -0.41569389,1.796117 -0.73252622,3.703775 -0.94790469,5.679106 -0.19566363,2.576889 -0.08385702,5.2311 -0.04505427,7.833496 0.01855697,2.27119 -0.12424866,4.516915 -0.44179237,6.667435 -0.21874136,1.48141 -0.3676657,2.08422 -0.66227987,3.49486 -0.673705,3.00291 -1.5862374,5.63833 -2.6852132,7.84747 -0.7421856,1.2045 -1.273209,1.91121 -2.1740404,1.3067 0,0 -1.9814278,-3.59234 -1.9814278,-3.59234 v 0 c 0.13404,0.13265 0.3811937,0.39862 0.5251625,0.45126 0.5672222,0.20736 1.075405,-0.5398 1.5291059,-1.21656 1.1008692,-2.09423 1.9997585,-4.6645 2.658786,-7.60339 0.2760274,-1.33659 0.4374577,-2.00816 0.6385411,-3.41298 0.3017207,-2.10785 0.4140915,-4.314006 0.3902674,-6.528835 -0.040941,-2.661453 -0.1652395,-5.373672 0.057962,-8.005659 0.2292253,-2.012411 0.5648482,-3.939046 0.9467173,-5.820604 0,0 2.1911773,2.900043 2.1911773,2.900043 z" />
-        <path
-           style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.362896"
-           id="path55558"
-           d="M 1.0900358,83.362641 C 0.67434185,81.566527 0.35750951,79.658868 0.14213105,77.683537 -0.0535326,75.106649 0.05827404,72.452438 0.09707676,69.850041 0.11563382,67.57885 -0.0271719,65.333128 -0.3447156,63.182609 c -0.21874136,-1.481418 -0.36766564,-2.084226 -0.6622799,-3.494864 -0.673705,-3.002907 -1.5862374,-5.638329 -2.6852131,-7.847469 -0.7421857,-1.204501 -1.273209,-1.911205 -2.1740404,-1.306703 0,0 -1.9814279,3.592343 -1.9814279,3.592343 v 0 c 0.1340401,-0.132647 0.3811937,-0.398624 0.5251625,-0.45126 0.5672222,-0.207364 1.075405,0.539801 1.5291058,1.216555 1.1008692,2.094236 1.9997586,4.664502 2.6587861,7.603392 0.2760275,1.336594 0.4374577,2.008164 0.6385411,3.412982 0.3017207,2.107852 0.4140916,4.314008 0.3902674,6.528835 -0.04094,2.661455 -0.1652394,5.373672 0.057962,8.00566 0.2292253,2.012412 0.5648482,3.939047 0.9467174,5.820605 0,0 2.1911772,-2.900046 2.1911772,-2.900046 z" />
+         id="g54495"
+         data-fragment-index="2"
+         class="fragment fade-in"
+         transform="translate(-91.638584,19.260414)"
+         style="display:inline">
+        <g
+           id="g53269-2"
+           transform="matrix(-1,0,0,1,44.409681,-8.2325872)">
+          <path
+             style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.362896"
+             id="path52238-84-0-4"
+             d="m 1.0734314,83.373223 c -0.41569389,1.796117 -0.73252622,3.703775 -0.94790469,5.679106 -0.19566363,2.576889 -0.08385702,5.2311 -0.04505427,7.833496 0.01855697,2.27119 -0.12424866,4.516915 -0.44179237,6.667435 -0.21874136,1.48141 -0.3676657,2.08422 -0.66227987,3.49486 -0.673705,3.00291 -1.5862374,5.63833 -2.6852132,7.84747 -0.7421856,1.2045 -1.273209,1.91121 -2.1740404,1.3067 0,0 -1.9814278,-3.59234 -1.9814278,-3.59234 v 0 c 0.13404,0.13265 0.3811937,0.39862 0.5251625,0.45126 0.5672222,0.20736 1.075405,-0.5398 1.5291059,-1.21656 1.1008692,-2.09423 1.9997585,-4.6645 2.658786,-7.60339 0.2760274,-1.33659 0.4374577,-2.00816 0.6385411,-3.41298 0.3017207,-2.10785 0.4140915,-4.314006 0.3902674,-6.528835 -0.040941,-2.661453 -0.1652395,-5.373672 0.057962,-8.005659 0.2292253,-2.012411 0.5648482,-3.939046 0.9467173,-5.820604 0,0 2.1911773,2.900043 2.1911773,2.900043 z" />
+          <path
+             style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.362896"
+             id="path52238-8-3-6-3"
+             d="M 1.0900358,83.362641 C 0.67434185,81.566527 0.35750951,79.658868 0.14213105,77.683537 -0.0535326,75.106649 0.05827404,72.452438 0.09707676,69.850041 0.11563382,67.57885 -0.0271719,65.333128 -0.3447156,63.182609 c -0.21874136,-1.481418 -0.36766564,-2.084226 -0.6622799,-3.494864 -0.673705,-3.002907 -1.5862374,-5.638329 -2.6852131,-7.847469 -0.7421857,-1.204501 -1.273209,-1.911205 -2.1740404,-1.306703 0,0 -1.9814279,3.592343 -1.9814279,3.592343 v 0 c 0.1340401,-0.132647 0.3811937,-0.398624 0.5251625,-0.45126 0.5672222,-0.207364 1.075405,0.539801 1.5291058,1.216555 1.1008692,2.094236 1.9997586,4.664502 2.6587861,7.603392 0.2760275,1.336594 0.4374577,2.008164 0.6385411,3.412982 0.3017207,2.107852 0.4140916,4.314008 0.3902674,6.528835 -0.04094,2.661455 -0.1652394,5.373672 0.057962,8.00566 0.2292253,2.012412 0.5648482,3.939047 0.9467174,5.820605 0,0 2.1911772,-2.900046 2.1911772,-2.900046 z" />
+        </g>
+        <g
+           id="g53265-2"
+           transform="matrix(-1,0,0,1,66.778427,-7.9414073)">
+          <path
+             style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.362896"
+             id="path52238-84-0-6-0"
+             d="m -73.192121,83.082047 c 0.415694,1.796117 0.732526,3.703775 0.947904,5.679106 0.195664,2.576889 0.08386,5.2311 0.04505,7.833496 -0.01856,2.27119 0.124249,4.516911 0.441793,6.667431 0.218741,1.48141 0.367665,2.08422 0.66228,3.49486 0.673705,3.00291 1.586237,5.63833 2.685213,7.84747 0.742186,1.2045 1.273209,1.91121 2.17404,1.3067 0,0 1.981428,-3.59234 1.981428,-3.59234 v 0 c -0.13404,0.13265 -0.381193,0.39862 -0.525162,0.45126 -0.567222,0.20736 -1.075405,-0.5398 -1.529106,-1.21656 -1.100869,-2.09423 -1.999759,-4.6645 -2.658786,-7.60339 -0.276027,-1.33659 -0.437458,-2.00816 -0.638541,-3.41298 -0.301721,-2.107846 -0.414092,-4.314002 -0.390268,-6.528831 0.04094,-2.661453 0.16524,-5.373672 -0.05796,-8.005659 -0.229225,-2.012411 -0.564848,-3.939046 -0.946717,-5.820604 0,0 -2.191177,2.900043 -2.191177,2.900043 z" />
+          <path
+             style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.362896"
+             id="path52238-8-3-6-6-2"
+             d="m -73.208726,83.071465 c 0.415694,-1.796114 0.732527,-3.703773 0.947905,-5.679104 0.195664,-2.576888 0.08386,-5.231099 0.04505,-7.833496 -0.01856,-2.271191 0.124249,-4.516913 0.441793,-6.667432 0.218741,-1.481418 0.367665,-2.084226 0.662279,-3.494864 0.673705,-3.002907 1.586238,-5.638329 2.685214,-7.847469 0.742185,-1.204501 1.273209,-1.911205 2.17404,-1.306703 0,0 1.981428,3.592343 1.981428,3.592343 v 0 c -0.13404,-0.132647 -0.381194,-0.398624 -0.525162,-0.45126 -0.567223,-0.207364 -1.075405,0.539801 -1.529106,1.216555 -1.10087,2.094236 -1.999759,4.664502 -2.658786,7.603392 -0.276028,1.336594 -0.437458,2.008164 -0.638542,3.412982 -0.30172,2.107852 -0.414091,4.314008 -0.390267,6.528835 0.04094,2.661455 0.165239,5.373672 -0.05796,8.00566 -0.229225,2.012412 -0.564848,3.939047 -0.946717,5.820605 0,0 -2.191178,-2.900046 -2.191178,-2.900046 z" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:79.3324;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="59.024742"
+           y="80.247292"
+           id="text55580"
+           transform="translate(-2.1245806,-22.36282)"><tspan
+             x="59.024742"
+             y="80.247292"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">A.3.1 Design of ADA based </tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">on </tspan></tspan><tspan
+             x="59.024742"
+             y="87.30284"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">new </tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">neural </tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">density </tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">algorithm </tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:77.8982;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="57.915955"
+           y="100.06767"
+           id="text55590"
+           transform="translate(-0.84204477,-12.388818)"><tspan
+             x="57.915955"
+             y="100.06767"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">A.3.2 Integration of ADA </tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">with </tspan></tspan><tspan
+             x="57.915955"
+             y="107.12322"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">deep </tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">features </tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">extractors</tspan></tspan></text>
       </g>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:60.5121;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
-         x="59.024742"
-         y="80.247292"
-         id="text55580"
-         transform="translate(3.1835228,-23.446563)"><tspan
-           x="59.024742"
-           y="80.247292"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Design of ADA based </tspan><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">on </tspan></tspan><tspan
-           x="59.024742"
-           y="87.30284"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">new neural </tspan><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">density </tspan></tspan><tspan
-           x="59.024742"
-           y="94.35839"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">algorithm </tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:57.4762;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
-         x="57.915955"
-         y="100.06767"
-         id="text55590"
-         transform="translate(4.4660586,-13.472561)"><tspan
-           x="57.915955"
-           y="100.06767"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Integration of ADA </tspan><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">with </tspan></tspan><tspan
-           x="57.915955"
-           y="107.12322"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">deep features </tspan></tspan><tspan
-           x="57.915955"
-           y="114.17877"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">extractors</tspan></tspan></text>
       <g
-         id="g55596"
-         transform="matrix(-1,0,0,1,52.203217,-8.6794645)">
+         id="g54472"
+         class="fragment fade-in"
+         data-fragment-index="1"
+         transform="translate(-118.40304,22.829924)"
+         style="display:inline">
         <path
-           style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.362896"
-           id="path55592"
-           d="m -73.192121,83.082047 c 0.415694,1.796117 0.732526,3.703775 0.947904,5.679106 0.195664,2.576889 0.08386,5.2311 0.04505,7.833496 -0.01856,2.27119 0.124249,4.516911 0.441793,6.667431 0.218741,1.48141 0.367665,2.08422 0.66228,3.49486 0.673705,3.00291 1.586237,5.63833 2.685213,7.84747 0.742186,1.2045 1.273209,1.91121 2.17404,1.3067 0,0 1.981428,-3.59234 1.981428,-3.59234 v 0 c -0.13404,0.13265 -0.381193,0.39862 -0.525162,0.45126 -0.567222,0.20736 -1.075405,-0.5398 -1.529106,-1.21656 -1.100869,-2.09423 -1.999759,-4.6645 -2.658786,-7.60339 -0.276027,-1.33659 -0.437458,-2.00816 -0.638541,-3.41298 -0.301721,-2.107846 -0.414092,-4.314002 -0.390268,-6.528831 0.04094,-2.661453 0.16524,-5.373672 -0.05796,-8.005659 -0.229225,-2.012411 -0.564848,-3.939046 -0.946717,-5.820604 0,0 -2.191177,2.900043 -2.191177,2.900043 z" />
+           style="display:inline;fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.264999"
+           id="path52234-3"
+           d="m 3.5891166,72.614162 c 0.36081,0.16959 0.87412,0.4236 1.242,0.53259 1.79441,0.53162 3.69108,0.55533 5.5448304,0.57024 1.05112,0.0186 2.09492,-0.089 3.1363,-0.21274 0,0 2.18954,-1.63517 2.18954,-1.63517 v 0 c -1.05246,0.1528 -2.10749,0.29667 -3.17458,0.28559 -1.81177,0.007 -3.6652104,10e-5 -5.4170304,-0.53371 -0.46619,-0.14206 -0.7675,-0.32352 -1.18363,-0.54474 0,0 -2.33743,1.53794 -2.33743,1.53794 z" />
+        <g
+           id="g53125-8"
+           transform="translate(53.556941,-9.1583044)">
+          <path
+             style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.264999"
+             id="path52238-0"
+             d="m -39.815052,82.602825 c 0.462802,0.860268 0.815539,1.773962 1.055325,2.720067 0.217837,1.234228 0.09336,2.50549 0.05016,3.751934 -0.02066,1.087811 0.138329,2.163424 0.491858,3.193439 0.24353,0.709539 0.409331,0.99826 0.737332,1.6739 0.750052,1.438275 1.765996,2.700538 2.989512,3.758628 0.826293,0.576908 1.417494,0.915393 2.420411,0.625859 0,0 2.205971,-1.720591 2.205971,-1.720591 v 0 c -0.14923,0.06353 -0.424392,0.190926 -0.584676,0.216136 -0.631502,0.09932 -1.197274,-0.258543 -1.70239,-0.582681 -1.225624,-1.003057 -2.226379,-2.234113 -2.96009,-3.641725 -0.307308,-0.640176 -0.487032,-0.961832 -0.710903,-1.634684 -0.335913,-1.009578 -0.461018,-2.066239 -0.434494,-3.127054 0.04558,-1.274731 0.183965,-2.573777 -0.06453,-3.834395 -0.255202,-0.963866 -0.628859,-1.886648 -1.054003,-2.78784 0,0 -2.43949,1.389007 -2.43949,1.389007 z" />
+          <path
+             style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.264999"
+             id="path52238-8-9"
+             d="m -39.833538,82.597756 c 0.462802,-0.860268 0.815539,-1.773962 1.055325,-2.720067 0.217837,-1.234228 0.09336,-2.50549 0.05016,-3.751934 -0.02066,-1.087811 0.138329,-2.163424 0.491858,-3.193439 0.24353,-0.709539 0.409331,-0.99826 0.737332,-1.6739 0.750052,-1.438275 1.765996,-2.700538 2.989512,-3.758628 0.826293,-0.576908 1.417494,-0.915393 2.420411,-0.625859 0,0 2.205971,1.720591 2.205971,1.720591 v 0 c -0.14923,-0.06353 -0.424392,-0.190926 -0.584676,-0.216136 -0.631502,-0.09932 -1.197274,0.258543 -1.70239,0.582681 -1.225624,1.003057 -2.226379,2.234113 -2.96009,3.641725 -0.307308,0.640176 -0.487032,0.961832 -0.710903,1.634684 -0.335913,1.009578 -0.461018,2.066239 -0.434494,3.127054 0.04558,1.274731 0.183965,2.573777 -0.06453,3.834395 -0.255202,0.963866 -0.628859,1.886648 -1.054003,2.78784 0,0 -2.43949,-1.389007 -2.43949,-1.389007 z" />
+        </g>
+        <g
+           id="g53121-9"
+           transform="translate(55.921192,-7.8408014)">
+          <path
+             style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.264999"
+             id="path52238-84-9"
+             d="m 0.83643945,82.237865 c -0.462802,0.860269 -0.815539,1.773962 -1.055325,2.720067 -0.217837,1.234228 -0.09336,2.50549 -0.05016,3.751935 0.02066,1.087811 -0.138329,2.163424 -0.491858,3.193439 -0.24352995,0.709539 -0.40933095,0.99826 -0.73733195,1.6739 -0.750052,1.438275 -1.765996,2.700537 -2.989512,3.758628 -0.826293,0.576908 -1.417494,0.915393 -2.420411,0.625859 0,0 -2.205971,-1.720591 -2.205971,-1.720591 v 0 c 0.14923,0.06353 0.424392,0.190926 0.584676,0.216136 0.631502,0.09932 1.197274,-0.258543 1.70239,-0.582681 1.225624,-1.003057 2.226379,-2.234113 2.96009,-3.641725 0.307308,-0.640176 0.487032,-0.961832 0.710903,-1.634684 0.335913,-1.009578 0.461018,-2.066239 0.434494,-3.127054 -0.04558,-1.274731 -0.183965,-2.573777 0.06453,-3.834395 0.255202,-0.963866 0.628859,-1.886648 1.054003,-2.78784 0,0 2.43948995,1.389007 2.43948995,1.389007 z" />
+          <path
+             style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.264999"
+             id="path52238-8-3-3"
+             d="m 0.85492545,82.232797 c -0.462802,-0.860268 -0.815539,-1.773962 -1.055325,-2.720067 -0.217837,-1.234228 -0.09336,-2.50549 -0.05016,-3.751935 0.02066,-1.087811 -0.138329,-2.163424 -0.491858,-3.193438 -0.24353,-0.70954 -0.40933095,-0.998261 -0.73733195,-1.673901 -0.750052,-1.438275 -1.765996,-2.700537 -2.989512,-3.758628 -0.826293,-0.576908 -1.417494,-0.915392 -2.420411,-0.625859 0,0 -2.205971,1.720591 -2.205971,1.720591 v 0 c 0.14923,-0.06353 0.424392,-0.190926 0.584676,-0.216136 0.631502,-0.09932 1.197274,0.258543 1.70239,0.582681 1.225624,1.003057 2.226379,2.234113 2.96009,3.641725 0.307308,0.640176 0.487032,0.961832 0.710903,1.634684 0.335913,1.009578 0.461018,2.066239 0.434494,3.127054 -0.04558,1.274731 -0.183965,2.573777 0.06453,3.834395 0.255202,0.963866 0.628859,1.886648 1.054003,2.78784 0,0 2.43948995,-1.389007 2.43948995,-1.389007 z" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:34.874;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="-13.514608"
+           y="70.661652"
+           id="text55644-0"
+           transform="translate(36.331811,-5.8032399)"><tspan
+             x="-13.514608"
+             y="70.661652"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Anomaly </tspan></tspan><tspan
+             x="-13.514608"
+             y="77.7172"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Detection </tspan></tspan><tspan
+             x="-13.514608"
+             y="84.77275"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Algorithm
+</tspan></tspan><tspan
+             x="-13.514608"
+             y="91.828299"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">(ADA)</tspan></tspan></text>
         <path
-           style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.362896"
-           id="path55594"
-           d="m -73.208726,83.071465 c 0.415694,-1.796114 0.732527,-3.703773 0.947905,-5.679104 0.195664,-2.576888 0.08386,-5.231099 0.04505,-7.833496 -0.01856,-2.271191 0.124249,-4.516913 0.441793,-6.667432 0.218741,-1.481418 0.367665,-2.084226 0.662279,-3.494864 0.673705,-3.002907 1.586238,-5.638329 2.685214,-7.847469 0.742185,-1.204501 1.273209,-1.911205 2.17404,-1.306703 0,0 1.981428,3.592343 1.981428,3.592343 v 0 c -0.13404,-0.132647 -0.381194,-0.398624 -0.525162,-0.45126 -0.567223,-0.207364 -1.075405,0.539801 -1.529106,1.216555 -1.10087,2.094236 -1.999759,4.664502 -2.658786,7.603392 -0.276028,1.336594 -0.437458,2.008164 -0.638542,3.412982 -0.30172,2.107852 -0.414091,4.314008 -0.390267,6.528835 0.04094,2.661455 0.165239,5.373672 -0.05796,8.00566 -0.229225,2.012412 -0.564848,3.939047 -0.946717,5.820605 0,0 -2.191178,-2.900046 -2.191178,-2.900046 z" />
+           style="fill:#1c4a8b;fill-opacity:0.894118;stroke:#1c4a8b;stroke-width:0.264999;stroke-linejoin:bevel"
+           id="path95084"
+           d="M 5.6995125,69.574258 C 6.5175303,68.736235 7.3380929,67.844065 7.8279491,66.765386 7.9295718,66.541609 8.0033313,66.306199 8.0910224,66.076604 8.7712495,64.068832 8.168798,62.077197 7.6049008,60.124815 7.0372947,58.271568 6.4538988,56.421858 6.0724861,54.518898 5.8287625,53.302904 5.809762,52.993773 5.6497256,51.765635 c -0.3934672,-2.613337 -0.0095,-5.193011 0.5839219,-7.737771 0.6320517,-2.088303 1.1529419,-4.224279 2.0904567,-6.201582 0.7598254,-1.476393 1.9957268,-2.575713 3.1929388,-3.68414 0.894521,-0.933879 1.058322,-1.506789 0.884446,-2.775058 -0.413286,-1.420347 -0.693835,-2.865967 -0.86284,-4.334039 -0.03999,-0.548942 0.03896,-1.104162 0.380581,-1.558121 0.5604,-0.744688 4.609917,-2.917584 -1.9818646,1.005948 0.2057206,-0.08295 0.4045076,-0.185764 0.6171596,-0.248859 0.874107,-0.259352 1.823538,-0.192209 2.719085,-0.136771 1.16677,0.07223 1.815149,0.161192 3.006667,0.294339 2.384829,0.312629 4.771548,0.671324 7.102422,1.27644 1.284906,0.333573 1.707488,0.493122 2.940129,0.898448 2.021149,0.643205 3.917831,1.600602 5.918951,2.295281 0.525061,0.142955 0.844968,0.275606 1.405178,0.237766 1.162815,-0.07855 2.289104,-0.63627 3.348004,-1.063422 0.485182,-0.195717 0.970465,-0.391189 1.455697,-0.586782 3.01919,-1.332005 6.175087,-2.272633 9.418296,-2.85419 3.007358,-0.426839 5.87207,-0.02725 8.788466,0.713094 2.630895,0.713306 5.154613,1.754574 7.781036,2.478143 0.967301,0.173096 1.474809,0.324504 2.478506,0.248735 2.330191,-0.175905 4.985983,-1.449292 7.124361,-2.33504 1.857716,-0.770917 3.71334,-1.557356 5.623203,-2.193356 0.896961,-0.298697 1.978938,-0.630037 2.925201,-0.764509 0.449813,-0.06392 0.906526,-0.06228 1.359789,-0.09343 2.803375,0.06833 5.394455,1.191787 8.007012,2.079096 0.584705,0.198586 1.174781,0.381 1.76217,0.5715 2.231644,0.646594 4.523652,1.208932 6.865742,1.135819 1.45888,-0.04554 2.0387,-0.213058 3.4787,-0.48306 2.40153,-0.52582 4.67496,-1.473335 7.00109,-2.24381 1.51531,-0.501912 1.37987,-0.440965 2.89236,-0.835014 1.21871,-0.239191 1.62075,-0.375095 2.87755,-0.38912 2.62182,-0.02926 5.24036,0.591087 7.78739,1.125855 2.3073,0.493704 4.59671,1.065152 6.90201,1.567762 1.11706,0.243546 2.51488,0.55486 3.66553,0.678696 0.52086,0.05605 1.04628,0.05533 1.56942,0.08299 0.48125,-0.02431 0.96405,-0.02743 1.44376,-0.07298 1.68444,-0.159946 3.26804,-0.782572 4.94234,-0.975215 0.4544,-0.05228 0.91343,-0.05003 1.37014,-0.07504 3.15676,0.14164 6.15999,1.214898 9.25034,1.76089 0.61255,0.108222 1.23226,0.170997 1.84839,0.256495 1.48258,0.083 3.08565,0.149322 4.43695,-0.606238 1.75072,-0.978892 4.00216,-1.706848 4.97795,-3.607506 0.16629,-0.323908 0.23166,-0.690372 0.34749,-1.035558 0.25801,-2.259306 -0.94979,-3.635266 -2.1318,-5.373568 -0.56603,-0.764323 -0.77724,-1.667674 -1.014,-2.567305 -0.23,-0.52755 -0.47278,-1.07691 -0.26182,-1.647124 0.24849,-0.601647 0.31215,-1.162733 0.22711,-1.802921 -0.0749,-0.710107 -0.36199,-1.133171 -0.85301,-1.62031 -0.22061,-0.271491 -0.12242,-0.127188 -0.29435,-0.433059 0,0 -3.44463,1.9835 -3.44463,1.9835 v 0 c 0.21043,0.374285 0.0933,0.19861 0.34934,0.528471 0.12184,0.120986 0.26444,0.22203 0.37386,0.354354 0.23176,0.280278 0.29988,0.683445 0.3473,1.029853 0.0487,0.589646 -0.11543,1.129628 -0.28977,1.688984 -0.0746,0.648393 0.0818,1.223089 0.36338,1.808784 0.25526,0.942163 0.50442,1.879262 1.11916,2.665984 0.88343,1.22863 1.99715,2.487232 2.06913,4.082135 0.0142,0.315132 -0.0565,0.628369 -0.0847,0.942554 -0.12799,0.308885 -0.20936,0.641525 -0.38398,0.926661 -0.69875,1.141021 -2.34854,1.918856 1.60973,-0.307494 0.39234,-0.220678 -0.80032,0.424985 -1.2316,0.553948 -1.17423,0.351118 -1.91197,0.251187 -3.13409,0.245962 -0.61455,-0.07458 -1.23295,-0.122391 -1.84366,-0.223732 -3.10416,-0.515096 -6.09699,-1.617967 -9.24701,-1.877708 -0.46328,0.0089 -0.92814,-0.01249 -1.38984,0.02676 -2.15259,0.182975 -4.17322,1.212823 -6.36692,1.13248 -0.52101,-0.01228 -1.0437,0.0067 -1.56303,-0.0368 -1.1519,-0.0965 -2.58034,-0.392784 -3.69636,-0.624347 -2.31272,-0.47987 -4.60465,-1.050182 -6.90963,-1.56463 -2.54054,-0.565163 -5.15089,-1.219792 -7.77022,-1.26623 -1.32789,-0.02355 -1.63185,0.09644 -2.91957,0.330674 -0.47894,0.119422 -0.96177,0.224213 -1.43683,0.358267 -2.86101,0.807336 -5.57026,2.086777 -8.47226,2.759472 -1.39294,0.284371 -2.00668,0.464934 -3.42098,0.539686 -2.32246,0.122751 -4.599785,-0.402735 -6.817784,-1.032277 -0.585295,-0.18705 -1.174081,-0.363521 -1.755891,-0.561147 -2.636756,-0.895633 -5.228627,-2.071039 -8.049573,-2.234215 -0.466759,0.01733 -0.936405,-0.0027 -1.400278,0.05196 -0.974487,0.114816 -2.069004,0.443584 -2.990866,0.747022 -1.927587,0.634478 -3.796678,1.432591 -5.670639,2.206278 -1.21797,0.507315 -2.64568,1.120902 -3.894053,1.569765 -0.921771,0.331427 -2.059131,0.712777 -3.051718,0.823759 -0.983244,0.109937 -1.463447,-0.02604 -2.418992,-0.172347 -2.642886,-0.689266 -5.173454,-1.728478 -7.803335,-2.466422 -0.470046,-0.124963 -0.935702,-0.267787 -1.410137,-0.374886 -2.447882,-0.552587 -4.986186,-0.750091 -7.48175,-0.465304 -0.505457,0.08512 -1.013515,0.156007 -1.516369,0.255355 -2.735485,0.540443 -5.384136,1.469152 -7.95324,2.537711 -0.903433,0.358082 -1.796449,0.742241 -2.701766,1.095537 -0.389993,0.152191 -1.450031,0.545147 -1.927723,0.622136 -0.586613,0.09454 -0.781447,-0.0094 -1.343242,-0.141912 -2.037818,-0.641869 -3.951769,-1.602923 -5.98928,-2.249273 -1.277022,-0.415026 -1.654924,-0.557478 -2.985423,-0.905198 -2.33694,-0.610749 -4.726918,-0.979035 -7.115363,-1.320721 -1.3571,-0.175109 -2.708595,-0.354626 -4.076152,-0.42377 -0.623048,-0.0315 -1.060584,-0.06719 -1.66699,0.05624 -0.221669,0.04512 -0.432075,0.134173 -0.648113,0.201258 -1.305977,0.752391 -2.630122,1.474095 -3.917932,2.257174 -0.8896289,0.540959 -1.1167702,1.629418 -1.0242788,2.58432 0.1865641,1.465596 0.4818309,2.905863 0.8431932,4.338402 0.089583,1.196862 -0.1976524,1.608458 -1.032221,2.439893 -1.2055965,1.122272 -2.3725325,2.308624 -3.0983476,3.81173 -0.8812635,2.010796 -1.4184637,4.150958 -2.0223553,6.256864 -0.5859127,2.626159 -0.9168472,5.163343 -0.508747,7.853619 0.3915495,2.900045 1.0751101,5.627867 1.969979,8.413353 0.5196711,1.901878 1.0584326,3.828285 0.3113363,5.751131 -0.094189,0.214982 -0.17546,0.436102 -0.2825673,0.644949 -0.5413714,1.05561 -1.3959467,1.899544 -2.1945798,2.758421 0,0 3.6499498,-1.550773 3.6499498,-1.550773 z" />
+        <g
+           id="g55782"
+           transform="translate(44.023708,-14.672592)"
+           style="display:inline">
+          <path
+             id="path55742"
+             class="st2"
+             d="m 125.02924,24.540433 h -23.01988 c -2.072729,0 -3.768599,-2.063226 -3.768599,-4.584948 v -8.214699 c 0,-2.5217227 1.69587,-4.5849487 3.768599,-4.5849487 h 23.01988 c 2.07273,0 3.7686,2.063226 3.7686,4.5849487 v 8.214699 c 0,2.521722 -1.69587,4.584948 -3.7686,4.584948 z"
+             style="fill:#1c4a8b;stroke:#221f1f;stroke-width:0.346397;stroke-miterlimit:10" />
+          <g
+             id="g55762"
+             transform="matrix(0.3188012,0,0,0.29923781,36.382105,-17.801992)">
+            <linearGradient
+               id="linearGradient55758"
+               gradientUnits="userSpaceOnUse"
+               x1="-7854.5342"
+               y1="-8001.5151"
+               x2="-7819.292"
+               y2="-8001.5151"
+               gradientTransform="matrix(-1,0.0050054,-0.0050054,-1,-7573.2466,-7851.8403)">
+              <stop
+                 offset="5.618000e-003"
+                 style="stop-color:#FEDC00"
+                 id="stop55744" />
+              <stop
+                 offset="5.735702e-002"
+                 style="stop-color:#F8D10F"
+                 id="stop55746" />
+              <stop
+                 offset="0.1534"
+                 style="stop-color:#EBB422"
+                 id="stop55748" />
+              <stop
+                 offset="0.2833"
+                 style="stop-color:#D9892B"
+                 id="stop55750" />
+              <stop
+                 offset="0.4402"
+                 style="stop-color:#C6522F"
+                 id="stop55752" />
+              <stop
+                 offset="0.5225"
+                 style="stop-color:#BD2A2F"
+                 id="stop55754" />
+              <stop
+                 offset="1"
+                 style="stop-color:#EB6537"
+                 id="stop55756" />
+            </linearGradient>
+            <path
+               id="path55760"
+               class="st12"
+               d="m 287.2,104.3 c 7,-3 15,0 21,4 0,-2 0,-4 0,-6 4,4 8,8 13,9 -5,5 -11,6 -17,7 1,-2 2,-3 3,-4 -7,-2 -14,-4 -21,1 0,-4 -1,-7 1,-11 z"
+               style="fill:url(#linearGradient95426)" />
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:26.3173;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             x="29.964773"
+             y="21.246508"
+             id="text55776"
+             transform="translate(73.344726,-9.5730756)"><tspan
+               x="29.964773"
+               y="21.246508"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Anomaly </tspan></tspan><tspan
+               x="29.964773"
+               y="26.538171"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Detection </tspan></tspan><tspan
+               x="29.964773"
+               y="31.829833"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Algorithm</tspan></tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             x="106.90117"
+             y="5.4571562"
+             id="text55780"><tspan
+               sodipodi:role="line"
+               id="tspan55778"
+               x="106.90117"
+               y="5.4571562"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">WP3</tspan></text>
+        </g>
+        <g
+           id="g56195"
+           class="fragment semi-fade-out"
+           data-fragment-index="1"
+           mask="url(#mask88732)"
+           style="display:inline"
+           transform="translate(44.023836,-14.67251)">
+          <g
+             id="g56096">
+            <g
+               id="g55696"
+               transform="translate(10.299595,-2.6532447)">
+              <path
+                 id="path55656"
+                 class="st2"
+                 d="M 74.279792,26.967763 H 49.8349 c -2.20104,0 -4.001892,-2.061986 -4.001892,-4.582192 v -8.209759 c 0,-2.520207 1.800852,-4.5821916 4.001892,-4.5821916 h 24.444892 c 2.201039,0 4.00189,2.0619846 4.00189,4.5821916 v 8.209759 c 0,2.520206 -1.800851,4.582192 -4.00189,4.582192 z"
+                 style="fill:#1c4a8b;stroke:#221f1f;stroke-width:0.356851;stroke-miterlimit:10" />
+              <g
+                 id="g55676"
+                 transform="matrix(0.3188012,0,0,0.29923781,-14.729468,-15.369436)">
+                <linearGradient
+                   id="linearGradient55672"
+                   gradientUnits="userSpaceOnUse"
+                   x1="-7854.5342"
+                   y1="-8001.5151"
+                   x2="-7819.292"
+                   y2="-8001.5151"
+                   gradientTransform="matrix(-1,0.0050054,-0.0050054,-1,-7573.2466,-7851.8403)">
+                  <stop
+                     offset="5.618000e-003"
+                     style="stop-color:#FEDC00"
+                     id="stop55658" />
+                  <stop
+                     offset="5.735702e-002"
+                     style="stop-color:#F8D10F"
+                     id="stop55660" />
+                  <stop
+                     offset="0.1534"
+                     style="stop-color:#EBB422"
+                     id="stop55662" />
+                  <stop
+                     offset="0.2833"
+                     style="stop-color:#D9892B"
+                     id="stop55664" />
+                  <stop
+                     offset="0.4402"
+                     style="stop-color:#C6522F"
+                     id="stop55666" />
+                  <stop
+                     offset="0.5225"
+                     style="stop-color:#BD2A2F"
+                     id="stop55668" />
+                  <stop
+                     offset="1"
+                     style="stop-color:#EB6537"
+                     id="stop55670" />
+                </linearGradient>
+                <path
+                   id="path55674"
+                   class="st12"
+                   d="m 287.2,104.3 c 7,-3 15,0 21,4 0,-2 0,-4 0,-6 4,4 8,8 13,9 -5,5 -11,6 -17,7 1,-2 2,-3 3,-4 -7,-2 -14,-4 -21,1 0,-4 -1,-7 1,-11 z"
+                   style="fill:url(#linearGradient95428)" />
+              </g>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:32.524;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                 x="61.016087"
+                 y="21.246508"
+                 id="text55690"
+                 transform="translate(-12.705046,-7.2406229)"
+                 inkscape:transform-center-x="-0.10011188"
+                 inkscape:transform-center-y="0.40043122"><tspan
+                   x="61.016087"
+                   y="21.246508"><tspan
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Evaluation of </tspan></tspan><tspan
+                   x="61.016087"
+                   y="26.538171"><tspan
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Efficient </tspan></tspan><tspan
+                   x="61.016087"
+                   y="31.829833"><tspan
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Approximation</tspan></tspan></text>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                 x="55.49099"
+                 y="7.8897109"
+                 id="text55694"><tspan
+                   sodipodi:role="line"
+                   id="tspan55692"
+                   x="55.49099"
+                   y="7.8897109"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">WP2</tspan></text>
+            </g>
+            <g
+               id="g55740"
+               transform="translate(10.299596,-2.4319087)"
+               style="display:inline">
+              <g
+                 id="g55716"
+                 transform="matrix(0.3188012,0,0,0.29923781,-55.836053,-15.590772)">
+                <linearGradient
+                   id="linearGradient55712"
+                   gradientUnits="userSpaceOnUse"
+                   x1="-7854.5342"
+                   y1="-8001.5151"
+                   x2="-7819.292"
+                   y2="-8001.5151"
+                   gradientTransform="matrix(-1,0.0050054,-0.0050054,-1,-7573.2466,-7851.8403)">
+                  <stop
+                     offset="5.618000e-003"
+                     style="stop-color:#FEDC00"
+                     id="stop55698" />
+                  <stop
+                     offset="5.735702e-002"
+                     style="stop-color:#F8D10F"
+                     id="stop55700" />
+                  <stop
+                     offset="0.1534"
+                     style="stop-color:#EBB422"
+                     id="stop55702" />
+                  <stop
+                     offset="0.2833"
+                     style="stop-color:#D9892B"
+                     id="stop55704" />
+                  <stop
+                     offset="0.4402"
+                     style="stop-color:#C6522F"
+                     id="stop55706" />
+                  <stop
+                     offset="0.5225"
+                     style="stop-color:#BD2A2F"
+                     id="stop55708" />
+                  <stop
+                     offset="1"
+                     style="stop-color:#EB6537"
+                     id="stop55710" />
+                </linearGradient>
+                <path
+                   id="path55714"
+                   class="st12"
+                   d="m 287.2,104.3 c 7,-3 15,0 21,4 0,-2 0,-4 0,-6 4,4 8,8 13,9 -5,5 -11,6 -17,7 1,-2 2,-3 3,-4 -7,-2 -14,-4 -21,1 0,-4 -1,-7 1,-11 z"
+                   style="fill:url(#linearGradient55824)" />
+              </g>
+              <g
+                 id="g55738">
+                <path
+                   id="path55718"
+                   class="st2"
+                   d="M 32.811085,26.751653 H 9.7912042 c -2.0727312,0 -3.7686018,-2.063226 -3.7686018,-4.584948 v -8.214699 c 0,-2.521723 1.6958706,-4.5849486 3.7686018,-4.5849486 H 32.811085 c 2.072729,0 3.7686,2.0632256 3.7686,4.5849486 v 8.214699 c 0,2.521722 -1.695871,4.584948 -3.7686,4.584948 z"
+                   style="fill:#1c4a8b;stroke:#221f1f;stroke-width:0.346397;stroke-miterlimit:10" />
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:26.3173;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                   x="19.785557"
+                   y="21.246508"
+                   id="text55732"
+                   transform="translate(-9.1730576,-7.3618557)"><tspan
+                     x="19.785557"
+                     y="21.246508"><tspan
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.264583">Density </tspan></tspan><tspan
+                     x="19.785557"
+                     y="26.538171"><tspan
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.264583">Estimation </tspan></tspan><tspan
+                     x="19.785557"
+                     y="31.829833"><tspan
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.264583">Algorithm</tspan></tspan></text>
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                   x="15.418639"
+                   y="7.6683755"
+                   id="text55736"><tspan
+                     sodipodi:role="line"
+                     id="tspan55734"
+                     x="15.418639"
+                     y="7.6683755"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">WP1</tspan></text>
+              </g>
+            </g>
+            <g
+               id="g55800"
+               transform="translate(-1.2789376e-4,-8.2294121e-5)">
+              <path
+                 id="path55784"
+                 class="st2"
+                 d="m 165.31273,24.457059 h -23.01988 c -2.07273,0 -3.7686,-2.063226 -3.7686,-4.584948 v -8.214699 c 0,-2.5217227 1.69587,-4.5849497 3.7686,-4.5849497 h 23.01988 c 2.07273,0 3.7686,2.063227 3.7686,4.5849497 v 8.214699 c 0,2.521722 -1.69587,4.584948 -3.7686,4.584948 z"
+                 style="fill:#1c4a8b;stroke:#221f1f;stroke-width:0.346397;stroke-miterlimit:10" />
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:26.3173;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                 x="62.954987"
+                 y="21.246508"
+                 id="text55794"
+                 transform="translate(81.133454,-7.3912632)"><tspan
+                   x="62.954987"
+                   y="21.246508"><tspan
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Sistematic </tspan></tspan><tspan
+                   x="62.954987"
+                   y="26.538171"><tspan
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Evaluation</tspan></tspan></text>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                 x="147.19853"
+                 y="5.3737822"
+                 id="text55798"><tspan
+                   sodipodi:role="line"
+                   id="tspan55796"
+                   x="147.19853"
+                   y="5.3737822"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">WP4</tspan></text>
+            </g>
+          </g>
+        </g>
       </g>
     </g>
     <g
        id="g55628"
        class="fragment fade-in"
-       data-fragment-index="3">
+       data-fragment-index="3"
+       transform="translate(7.7976339,10.64372)"
+       style="display:inline">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:43.5411;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:64.3636;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="90.283577"
          y="60.714725"
          id="text55612"
          transform="translate(37.414111,-9.5369397)"><tspan
            x="90.283577"
            y="60.714725"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">D.3.1 New ADA </tspan></tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">D.3.1 New ADA </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">based on </tspan></tspan><tspan
            x="90.283577"
            y="67.770274"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">based on </tspan><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">neural </tspan></tspan><tspan
-           x="90.283577"
-           y="74.825827"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">density </tspan></tspan><tspan
-           x="90.283577"
-           y="81.881377"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">neural </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">density </tspan><tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">estimation</tspan></tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:43.5437;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:64.3662;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="91.681999"
          y="98.656609"
          id="text55626"
          transform="translate(35.822748,-13.217867)"><tspan
            x="91.681999"
            y="98.656609"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">D.3.2 New ADA </tspan></tspan><tspan
-           x="91.681999"
-           y="105.71216"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">D.3.2 New ADA </tspan><tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">with deep </tspan></tspan><tspan
            x="91.681999"
-           y="112.76771"><tspan
+           y="105.71216"><tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">learning</tspan></tspan></text>
     </g>
-    <g
-       id="g55654"
-       class="fragment fade-in"
-       data-fragment-index="1">
-      <g
-         id="g55634"
-         transform="translate(53.556941,-9.1583044)">
-        <path
-           style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.264999"
-           id="path55630"
-           d="m -39.815052,82.602825 c 0.462802,0.860268 0.815539,1.773962 1.055325,2.720067 0.217837,1.234228 0.09336,2.50549 0.05016,3.751934 -0.02066,1.087811 0.138329,2.163424 0.491858,3.193439 0.24353,0.709539 0.409331,0.99826 0.737332,1.6739 0.750052,1.438275 1.765996,2.700538 2.989512,3.758628 0.826293,0.576908 1.417494,0.915393 2.420411,0.625859 0,0 2.205971,-1.720591 2.205971,-1.720591 v 0 c -0.14923,0.06353 -0.424392,0.190926 -0.584676,0.216136 -0.631502,0.09932 -1.197274,-0.258543 -1.70239,-0.582681 -1.225624,-1.003057 -2.226379,-2.234113 -2.96009,-3.641725 -0.307308,-0.640176 -0.487032,-0.961832 -0.710903,-1.634684 -0.335913,-1.009578 -0.461018,-2.066239 -0.434494,-3.127054 0.04558,-1.274731 0.183965,-2.573777 -0.06453,-3.834395 -0.255202,-0.963866 -0.628859,-1.886648 -1.054003,-2.78784 0,0 -2.43949,1.389007 -2.43949,1.389007 z" />
-        <path
-           style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.264999"
-           id="path55632"
-           d="m -39.833538,82.597756 c 0.462802,-0.860268 0.815539,-1.773962 1.055325,-2.720067 0.217837,-1.234228 0.09336,-2.50549 0.05016,-3.751934 -0.02066,-1.087811 0.138329,-2.163424 0.491858,-3.193439 0.24353,-0.709539 0.409331,-0.99826 0.737332,-1.6739 0.750052,-1.438275 1.765996,-2.700538 2.989512,-3.758628 0.826293,-0.576908 1.417494,-0.915393 2.420411,-0.625859 0,0 2.205971,1.720591 2.205971,1.720591 v 0 c -0.14923,-0.06353 -0.424392,-0.190926 -0.584676,-0.216136 -0.631502,-0.09932 -1.197274,0.258543 -1.70239,0.582681 -1.225624,1.003057 -2.226379,2.234113 -2.96009,3.641725 -0.307308,0.640176 -0.487032,0.961832 -0.710903,1.634684 -0.335913,1.009578 -0.461018,2.066239 -0.434494,3.127054 0.04558,1.274731 0.183965,2.573777 -0.06453,3.834395 -0.255202,0.963866 -0.628859,1.886648 -1.054003,2.78784 0,0 -2.43949,-1.389007 -2.43949,-1.389007 z" />
-      </g>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:34.874;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'San Francisco Display';font-stretch:normal;font-variant:normal;"
-         x="-13.514608"
-         y="70.661652"
-         id="text55644"
-         transform="translate(35.552732,-4.061974)"><tspan
-           x="-13.514608"
-           y="70.661652"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Anomaly </tspan></tspan><tspan
-           x="-13.514608"
-           y="77.7172"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Detection </tspan></tspan><tspan
-           x="-13.514608"
-           y="84.77275"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">Algorithm
-</tspan></tspan><tspan
-           x="-13.514608"
-           y="91.828299"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display'">(ADA)</tspan></tspan></text>
-      <g
-         id="g55650"
-         transform="translate(55.921192,-7.8408014)">
-        <path
-           style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.264999"
-           id="path55646"
-           d="m 0.83643945,82.237865 c -0.462802,0.860269 -0.815539,1.773962 -1.055325,2.720067 -0.217837,1.234228 -0.09336,2.50549 -0.05016,3.751935 0.02066,1.087811 -0.138329,2.163424 -0.491858,3.193439 -0.24352995,0.709539 -0.40933095,0.99826 -0.73733195,1.6739 -0.750052,1.438275 -1.765996,2.700537 -2.989512,3.758628 -0.826293,0.576908 -1.417494,0.915393 -2.420411,0.625859 0,0 -2.205971,-1.720591 -2.205971,-1.720591 v 0 c 0.14923,0.06353 0.424392,0.190926 0.584676,0.216136 0.631502,0.09932 1.197274,-0.258543 1.70239,-0.582681 1.225624,-1.003057 2.226379,-2.234113 2.96009,-3.641725 0.307308,-0.640176 0.487032,-0.961832 0.710903,-1.634684 0.335913,-1.009578 0.461018,-2.066239 0.434494,-3.127054 -0.04558,-1.274731 -0.183965,-2.573777 0.06453,-3.834395 0.255202,-0.963866 0.628859,-1.886648 1.054003,-2.78784 0,0 2.43948995,1.389007 2.43948995,1.389007 z" />
-        <path
-           style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.264999"
-           id="path55648"
-           d="m 0.85492545,82.232797 c -0.462802,-0.860268 -0.815539,-1.773962 -1.055325,-2.720067 -0.217837,-1.234228 -0.09336,-2.50549 -0.05016,-3.751935 0.02066,-1.087811 -0.138329,-2.163424 -0.491858,-3.193438 -0.24353,-0.70954 -0.40933095,-0.998261 -0.73733195,-1.673901 -0.750052,-1.438275 -1.765996,-2.700537 -2.989512,-3.758628 -0.826293,-0.576908 -1.417494,-0.915392 -2.420411,-0.625859 0,0 -2.205971,1.720591 -2.205971,1.720591 v 0 c 0.14923,-0.06353 0.424392,-0.190926 0.584676,-0.216136 0.631502,-0.09932 1.197274,0.258543 1.70239,0.582681 1.225624,1.003057 2.226379,2.234113 2.96009,3.641725 0.307308,0.640176 0.487032,0.961832 0.710903,1.634684 0.335913,1.009578 0.461018,2.066239 0.434494,3.127054 -0.04558,1.274731 -0.183965,2.573777 0.06453,3.834395 0.255202,0.963866 0.628859,1.886648 1.054003,2.78784 0,0 2.43948995,-1.389007 2.43948995,-1.389007 z" />
-      </g>
-      <path
-         style="display:inline;fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.264999"
-         id="path55810"
-         d="m 3.5891166,72.897309 c 0.36081,0.16959 0.87412,0.4236 1.242,0.53259 1.79441,0.53162 3.69108,0.55533 5.5448304,0.57024 1.05112,0.0186 2.09492,-0.089 3.1363,-0.21274 0,0 2.18954,-1.63517 2.18954,-1.63517 v 0 c -1.05246,0.1528 -2.10749,0.29667 -3.17458,0.28559 -1.81177,0.007 -3.6652104,10e-5 -5.4170304,-0.53371 -0.46619,-0.14206 -0.7675,-0.32352 -1.18363,-0.54474 0,0 -2.33743,1.53794 -2.33743,1.53794 z" />
-      <path
-         style="fill:#1c4a8b;fill-opacity:1;stroke:#1c4a8b;stroke-width:0.264999"
-         id="path55954"
-         d="m 112.5576,26.011789 c 0.13856,0.846493 0.18649,1.70445 0.22184,2.560427 0.0154,0.445167 0.0432,0.899554 -0.0667,1.336972 -0.0115,0.04573 -0.16582,0.440425 -0.18407,0.48756 -0.19984,0.385787 -0.53156,0.65921 -0.80265,0.986912 -0.28318,0.290092 -0.60044,0.524074 -0.95036,0.729859 4.08688,-2.336388 2.51643,-1.322658 1.50505,-1.024647 -0.32271,0.09509 -0.41102,0.09752 -0.76146,0.155747 -1.5096,0.248772 -3.03897,0.327144 -4.56551,0.385768 -1.36347,0.08562 -2.719,-0.04898 -4.05779,-0.2974 -1.51306,-0.356338 -3.000861,-0.808291 -4.506608,-1.19457 -1.361072,-0.349395 -2.690127,-0.806484 -4.030514,-1.224708 -1.066498,-0.355069 -2.166834,-0.582147 -3.278037,-0.739336 -1.260821,-0.149336 -2.527797,-0.18656 -3.794027,-0.10895 -1.126093,0.113786 -2.240756,0.327408 -3.319856,0.668583 -0.915517,0.316524 -1.828893,0.63898 -2.746039,0.951151 -0.852379,0.274241 -1.724036,0.48137 -2.590205,0.705908 -0.793848,0.218488 -1.583589,0.448895 -2.380686,0.656162 -1.042459,0.340547 -2.123795,0.475771 -3.212063,0.557741 -2.117778,0.105447 -4.23949,0.09916 -6.35935,0.106111 -2.686005,0.03937 -5.369042,-0.116374 -8.042336,-0.363537 -2.192219,-0.274561 -4.371393,-0.660382 -6.532856,-1.116957 -1.917549,-0.413689 -3.837125,-0.81778 -5.757561,-1.217914 -1.183005,-0.247013 -2.371519,-0.456629 -3.561977,-0.66285 -0.968899,-0.191866 -1.951596,-0.278046 -2.936399,-0.329047 -0.951764,-0.04844 -1.901079,-0.04703 -2.850208,0.03666 -1.131377,0.14936 -2.250106,0.388683 -3.350829,0.687689 -1.033287,0.275921 -2.049716,0.607851 -3.065234,0.941922 -0.867871,0.26434 -1.7119,0.604073 -2.539768,0.973765 -0.839483,0.434017 -1.707601,0.802235 -2.595442,1.124124 -1.345177,0.444426 -2.757877,0.561213 -4.161914,0.655648 -1.716243,0.06309 -3.429858,-0.141179 -5.109072,-0.48283 -0.936163,-0.203173 -1.852764,-0.494242 -2.740014,-0.854453 -0.540108,-0.217951 -1.081549,-0.434555 -1.605627,-0.689319 -0.432523,-0.198718 -0.820514,-0.475708 -1.23712,-0.70213 -0.464334,-0.228947 -0.9445368,-0.286817 -1.4463045,-0.182674 -1.3841836,0.558808 -2.7987731,1.337516 -3.6948046,2.561008 -0.394602,0.547269 -0.723782,1.142677 -1.0168652,1.749891 -0.2904575,0.612248 -0.4585454,1.255537 -0.5615599,1.922907 -0.03115,0.61228 -0.1787665,1.206336 -0.2684444,1.810972 -0.076912,0.570457 -0.089522,1.146527 -0.097986,1.721228 0.00127,0.513051 0.1084125,1.0364 0.2526049,1.528763 0.1054674,0.522012 0.3339893,0.993997 0.5592918,1.471289 0.2571094,0.401217 0.4515385,0.836155 0.7337864,1.221026 0.2162406,0.351602 0.4450488,0.691917 0.6879069,1.026099 0.3537649,0.420897 0.6463702,0.882994 0.9344014,1.349682 0.3563388,0.511421 0.6453524,1.069882 0.8608714,1.65435 0.340827,0.812964 0.4035684,1.699302 0.4647991,2.56849 0.00462,0.403328 0.057576,0.809972 0.03983,1.213768 -0.014012,0.318855 -0.085003,0.641429 -0.1350193,0.956001 -0.058889,0.327768 -0.2578031,0.577566 -0.4039193,0.863859 -0.1790176,0.350755 0.00388,0.07446 -0.2123405,0.372991 -0.2326095,0.338759 -0.4691198,0.671782 -0.676909,1.029105 -0.213819,0.199107 -0.3423028,0.465701 -0.5055303,0.70195 -0.043704,0.06326 -0.097997,0.118499 -0.1469949,0.177747 -0.043366,0.06622 -0.086731,0.13244 -0.1300972,0.19866 -0.2446321,0.424719 -0.5639588,0.792371 -0.8499673,1.186791 -0.2246101,0.369879 -0.443484,0.738902 -0.6461593,1.12228 -0.283496,0.442275 -0.4395401,0.949381 -0.6669418,1.421067 -0.038793,0.09217 -0.074444,0.185729 -0.1163794,0.276516 -0.1692846,0.366487 -0.110132,0.176445 -0.2625381,0.555479 -0.1131985,0.281525 -0.1843466,0.575673 -0.286861,0.861092 -0.2094248,0.568555 -0.2860746,1.16717 -0.3190988,1.768292 0.00153,0.440219 -0.070683,0.888662 0.014145,1.325462 0.029292,0.150831 0.1404196,0.488448 0.1875443,0.637551 0.2066131,0.528738 0.6150322,0.933082 0.9117407,1.406459 0.2314929,0.443648 0.2532345,0.946602 0.2749759,1.436124 0.028768,0.48547 -0.016121,0.98847 -0.2234761,1.433327 -0.1185106,0.197731 -0.139663,0.431694 -0.214844,0.643705 -0.072984,0.205816 -0.1754598,0.395562 -0.2423578,0.606062 -0.1177322,0.500417 -0.1874301,1.023086 -0.1229175,1.534808 0.066125,0.371767 0.2336273,0.729147 0.4193947,1.056622 0,0 2.4297476,-1.401331 2.4297476,-1.401331 v 0 C 5.946196,71.206375 5.7967996,70.883311 5.7476204,70.547414 c -0.035433,-0.480094 0.0359,-0.967793 0.179347,-1.426723 0.1559841,-0.414052 0.3039769,-0.829908 0.4602263,-1.24383 0.1479614,-0.500512 0.2160614,-1.010055 0.1665769,-1.53262 C 6.523039,65.807235 6.4769682,65.262569 6.2132955,64.781262 5.9278408,64.328238 5.5337013,63.945576 5.3284098,63.442624 5.2755937,63.271145 5.1957959,63.034319 5.1673558,62.855308 c -0.067313,-0.423688 0.00285,-0.858216 0.00762,-1.283301 0.051269,-0.581123 0.1416669,-1.156227 0.3532333,-1.703747 0.190152,-0.571979 0.4068768,-1.128104 0.6785536,-1.667468 0.2137687,-0.476557 0.4022037,-0.967044 0.6862061,-1.408094 0.212676,-0.366448 0.407457,-0.74277 0.6601195,-1.084808 0.3038541,-0.383828 0.5683086,-0.79399 0.8436279,-1.198226 0.2617047,-0.363212 0.5143204,-0.732835 0.7810402,-1.09225 0.2258005,-0.342771 0.4530355,-0.683289 0.676882,-1.027036 0.2323366,-0.425691 0.4783576,-0.847124 0.5547876,-1.33463 0.107518,-0.738195 0.131487,-1.47166 0.04522,-2.215546 -0.0751,-0.895062 -0.141974,-1.80765 -0.479868,-2.649765 C 9.7449551,45.592671 9.4513444,45.018102 9.0869917,44.490547 8.7984758,44.016617 8.5054304,43.546643 8.1551676,43.114859 7.9132707,42.777896 7.6771949,42.440595 7.4633258,42.084852 7.1828143,41.722262 7.0068148,41.297023 6.7520073,40.916973 6.5341811,40.453481 6.3173993,39.993363 6.2163528,39.486837 6.0931297,39.013529 5.9846103,38.521796 5.9979938,38.030988 c 0.011224,-0.56356 0.028765,-1.128461 0.1137298,-1.686687 0.096465,-0.601165 0.2180603,-1.197631 0.2648228,-1.805741 0.11436,-0.643954 0.3045952,-1.260996 0.5979506,-1.847914 0.3046468,-0.589232 0.6237467,-1.176544 1.0389881,-1.696654 0.2064845,-0.240508 0.4223107,-0.457636 0.6607143,-0.666845 0.070813,-0.06214 0.2988601,-0.226944 0.2157359,-0.182599 -1.2604533,0.672414 -2.9962694,1.723276 -1.9599264,1.097624 0.4429855,-0.186555 0.873579,-0.178562 1.3209188,0.0072 0.4288158,0.204145 0.8009493,0.506765 1.2363312,0.701008 0.5202151,0.283692 1.0909871,0.470366 1.6376391,0.696495 0.903505,0.380828 1.84844,0.66784 2.806816,0.872746 1.701132,0.346964 3.437459,0.547598 5.1755,0.5225 1.39858,-0.07384 2.804742,-0.160444 4.156641,-0.557512 0.896714,-0.29846 1.772136,-0.659543 2.609238,-1.099984 0.815638,-0.391797 1.664146,-0.727125 2.525666,-1.00248 1.016532,-0.341069 2.033741,-0.680955 3.069413,-0.960535 1.083638,-0.321077 2.194729,-0.539959 3.309866,-0.720447 0.945687,-0.09139 1.873496,-0.112763 2.823395,-0.06421 0.978496,0.03854 1.956787,0.109191 2.919802,0.296603 1.196758,0.218297 2.403268,0.384461 3.595335,0.631706 1.93225,0.378955 3.862105,0.772261 5.78507,1.195681 2.174666,0.462783 4.366868,0.853308 6.573766,1.126115 2.680255,0.249875 5.370967,0.400719 8.063843,0.378536 2.097445,0.0035 4.19594,0.02793 6.292681,-0.03571 1.085943,-0.06098 2.176523,-0.151503 3.215918,-0.496906 0.798994,-0.201176 1.589796,-0.424447 2.381332,-0.650203 0.863917,-0.252516 1.749269,-0.430329 2.609381,-0.699042 0.916641,-0.317839 1.836894,-0.624473 2.748622,-0.955165 1.061286,-0.38051 2.170827,-0.589314 3.287556,-0.733057 1.261261,-0.09394 2.503578,-0.08224 3.762277,0.06335 1.100532,0.141967 2.187191,0.363678 3.242506,0.711832 1.363165,0.388776 2.705502,0.849289 4.078533,1.204524 1.501918,0.386961 2.984537,0.836816 4.484435,1.230005 1.35611,0.273272 2.73666,0.410628 4.12126,0.328864 1.51446,-0.05604 3.03266,-0.116168 4.53479,-0.32952 1.67075,-0.179689 2.46219,-0.792578 4.09073,-1.810604 0.3332,-0.239224 0.65699,-0.481727 0.9221,-0.799672 0.30457,-0.320775 0.58735,-0.664609 0.752,-1.080714 0.20783,-0.623025 0.2483,-1.260359 0.18411,-1.913986 -0.048,-0.866529 -0.11529,-1.732016 -0.21303,-2.594463 0,0 -2.47685,1.306616 -2.47685,1.306616 z" />
-    </g>
-    <g
-       id="g55782"
-       transform="translate(-1.2789376e-4,-8.2294121e-5)">
-      <path
-         id="path55742"
-         class="st2"
-         d="m 125.02924,24.540433 h -23.01988 c -2.072729,0 -3.768599,-2.063226 -3.768599,-4.584948 v -8.214699 c 0,-2.5217227 1.69587,-4.5849487 3.768599,-4.5849487 h 23.01988 c 2.07273,0 3.7686,2.063226 3.7686,4.5849487 v 8.214699 c 0,2.521722 -1.69587,4.584948 -3.7686,4.584948 z"
-         style="fill:#1c4a8b;stroke:#221f1f;stroke-width:0.346397;stroke-miterlimit:10" />
-      <g
-         id="g55762"
-         transform="matrix(0.3188012,0,0,0.29923781,36.382105,-17.801992)">
-        <linearGradient
-           id="linearGradient55758"
-           gradientUnits="userSpaceOnUse"
-           x1="-7854.5342"
-           y1="-8001.5151"
-           x2="-7819.292"
-           y2="-8001.5151"
-           gradientTransform="matrix(-1,0.0050054,-0.0050054,-1,-7573.2466,-7851.8403)">
-          <stop
-             offset="5.618000e-003"
-             style="stop-color:#FEDC00"
-             id="stop55744" />
-          <stop
-             offset="5.735702e-002"
-             style="stop-color:#F8D10F"
-             id="stop55746" />
-          <stop
-             offset="0.1534"
-             style="stop-color:#EBB422"
-             id="stop55748" />
-          <stop
-             offset="0.2833"
-             style="stop-color:#D9892B"
-             id="stop55750" />
-          <stop
-             offset="0.4402"
-             style="stop-color:#C6522F"
-             id="stop55752" />
-          <stop
-             offset="0.5225"
-             style="stop-color:#BD2A2F"
-             id="stop55754" />
-          <stop
-             offset="1"
-             style="stop-color:#EB6537"
-             id="stop55756" />
-        </linearGradient>
-        <path
-           id="path55760"
-           class="st12"
-           d="m 287.2,104.3 c 7,-3 15,0 21,4 0,-2 0,-4 0,-6 4,4 8,8 13,9 -5,5 -11,6 -17,7 1,-2 2,-3 3,-4 -7,-2 -14,-4 -21,1 0,-4 -1,-7 1,-11 z"
-           style="fill:url(#linearGradient55824)" />
-      </g>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:26.3173;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="29.964773"
-         y="21.246508"
-         id="text55776"
-         transform="translate(73.344726,-9.5730756)"><tspan
-           x="29.964773"
-           y="21.246508"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Anomaly </tspan></tspan><tspan
-           x="29.964773"
-           y="26.538171"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Detection </tspan></tspan><tspan
-           x="29.964773"
-           y="31.829833"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Algorithm</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="106.90117"
-         y="5.4571562"
-         id="text55780"><tspan
-           sodipodi:role="line"
-           id="tspan55778"
-           x="106.90117"
-           y="5.4571562"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">WP3</tspan></text>
-    </g>
-    <g
-       id="g56195"
-       class="fragment semi-fade-out"
-       data-fragment-index="1">
-      <g
-         id="g56096">
-        <g
-           id="g55696"
-           transform="translate(10.299595,-2.6532447)">
-          <path
-             id="path55656"
-             class="st2"
-             d="M 74.279792,26.967763 H 49.8349 c -2.20104,0 -4.001892,-2.061986 -4.001892,-4.582192 v -8.209759 c 0,-2.520207 1.800852,-4.5821916 4.001892,-4.5821916 h 24.444892 c 2.201039,0 4.00189,2.0619846 4.00189,4.5821916 v 8.209759 c 0,2.520206 -1.800851,4.582192 -4.00189,4.582192 z"
-             style="fill:#1c4a8b;stroke:#221f1f;stroke-width:0.356851;stroke-miterlimit:10" />
-          <g
-             id="g55676"
-             transform="matrix(0.3188012,0,0,0.29923781,-14.729468,-15.369436)">
-            <linearGradient
-               id="linearGradient55672"
-               gradientUnits="userSpaceOnUse"
-               x1="-7854.5342"
-               y1="-8001.5151"
-               x2="-7819.292"
-               y2="-8001.5151"
-               gradientTransform="matrix(-1,0.0050054,-0.0050054,-1,-7573.2466,-7851.8403)">
-              <stop
-                 offset="5.618000e-003"
-                 style="stop-color:#FEDC00"
-                 id="stop55658" />
-              <stop
-                 offset="5.735702e-002"
-                 style="stop-color:#F8D10F"
-                 id="stop55660" />
-              <stop
-                 offset="0.1534"
-                 style="stop-color:#EBB422"
-                 id="stop55662" />
-              <stop
-                 offset="0.2833"
-                 style="stop-color:#D9892B"
-                 id="stop55664" />
-              <stop
-                 offset="0.4402"
-                 style="stop-color:#C6522F"
-                 id="stop55666" />
-              <stop
-                 offset="0.5225"
-                 style="stop-color:#BD2A2F"
-                 id="stop55668" />
-              <stop
-                 offset="1"
-                 style="stop-color:#EB6537"
-                 id="stop55670" />
-            </linearGradient>
-            <path
-               id="path55674"
-               class="st12"
-               d="m 287.2,104.3 c 7,-3 15,0 21,4 0,-2 0,-4 0,-6 4,4 8,8 13,9 -5,5 -11,6 -17,7 1,-2 2,-3 3,-4 -7,-2 -14,-4 -21,1 0,-4 -1,-7 1,-11 z"
-               style="fill:url(#linearGradient55820)" />
-          </g>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:32.524;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="61.016087"
-             y="21.246508"
-             id="text55690"
-             transform="translate(-12.705046,-7.2406229)"
-             inkscape:transform-center-x="-0.10011188"
-             inkscape:transform-center-y="0.40043122"><tspan
-               x="61.016087"
-               y="21.246508"><tspan
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Evaluation of </tspan></tspan><tspan
-               x="61.016087"
-               y="26.538171"><tspan
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Efficient </tspan></tspan><tspan
-               x="61.016087"
-               y="31.829833"><tspan
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Approximation</tspan></tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="55.49099"
-             y="7.8897109"
-             id="text55694"><tspan
-               sodipodi:role="line"
-               id="tspan55692"
-               x="55.49099"
-               y="7.8897109"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">WP2</tspan></text>
-        </g>
-        <g
-           id="g55740"
-           transform="translate(10.299596,-2.4319087)"
-           style="display:inline">
-          <g
-             id="g55716"
-             transform="matrix(0.3188012,0,0,0.29923781,-55.836053,-15.590772)">
-            <linearGradient
-               id="linearGradient55712"
-               gradientUnits="userSpaceOnUse"
-               x1="-7854.5342"
-               y1="-8001.5151"
-               x2="-7819.292"
-               y2="-8001.5151"
-               gradientTransform="matrix(-1,0.0050054,-0.0050054,-1,-7573.2466,-7851.8403)">
-              <stop
-                 offset="5.618000e-003"
-                 style="stop-color:#FEDC00"
-                 id="stop55698" />
-              <stop
-                 offset="5.735702e-002"
-                 style="stop-color:#F8D10F"
-                 id="stop55700" />
-              <stop
-                 offset="0.1534"
-                 style="stop-color:#EBB422"
-                 id="stop55702" />
-              <stop
-                 offset="0.2833"
-                 style="stop-color:#D9892B"
-                 id="stop55704" />
-              <stop
-                 offset="0.4402"
-                 style="stop-color:#C6522F"
-                 id="stop55706" />
-              <stop
-                 offset="0.5225"
-                 style="stop-color:#BD2A2F"
-                 id="stop55708" />
-              <stop
-                 offset="1"
-                 style="stop-color:#EB6537"
-                 id="stop55710" />
-            </linearGradient>
-            <path
-               id="path55714"
-               class="st12"
-               d="m 287.2,104.3 c 7,-3 15,0 21,4 0,-2 0,-4 0,-6 4,4 8,8 13,9 -5,5 -11,6 -17,7 1,-2 2,-3 3,-4 -7,-2 -14,-4 -21,1 0,-4 -1,-7 1,-11 z"
-               style="fill:url(#linearGradient55822)" />
-          </g>
-          <g
-             id="g55738">
-            <path
-               id="path55718"
-               class="st2"
-               d="M 32.811085,26.751653 H 9.7912042 c -2.0727312,0 -3.7686018,-2.063226 -3.7686018,-4.584948 v -8.214699 c 0,-2.521723 1.6958706,-4.5849486 3.7686018,-4.5849486 H 32.811085 c 2.072729,0 3.7686,2.0632256 3.7686,4.5849486 v 8.214699 c 0,2.521722 -1.695871,4.584948 -3.7686,4.584948 z"
-               style="fill:#1c4a8b;stroke:#221f1f;stroke-width:0.346397;stroke-miterlimit:10" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:26.3173;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="19.785557"
-               y="21.246508"
-               id="text55732"
-               transform="translate(-9.1730576,-7.3618557)"><tspan
-                 x="19.785557"
-                 y="21.246508"><tspan
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.264583">Density </tspan></tspan><tspan
-                 x="19.785557"
-                 y="26.538171"><tspan
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.264583">Estimation </tspan></tspan><tspan
-                 x="19.785557"
-                 y="31.829833"><tspan
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.264583">Algorithm</tspan></tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="15.418639"
-               y="7.6683755"
-               id="text55736"><tspan
-                 sodipodi:role="line"
-                 id="tspan55734"
-                 x="15.418639"
-                 y="7.6683755"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">WP1</tspan></text>
-          </g>
-        </g>
-        <g
-           id="g55800"
-           transform="translate(-1.2789376e-4,-8.2294121e-5)">
-          <path
-             id="path55784"
-             class="st2"
-             d="m 165.31273,24.457059 h -23.01988 c -2.07273,0 -3.7686,-2.063226 -3.7686,-4.584948 v -8.214699 c 0,-2.5217227 1.69587,-4.5849497 3.7686,-4.5849497 h 23.01988 c 2.07273,0 3.7686,2.063227 3.7686,4.5849497 v 8.214699 c 0,2.521722 -1.69587,4.584948 -3.7686,4.584948 z"
-             style="fill:#1c4a8b;stroke:#221f1f;stroke-width:0.346397;stroke-miterlimit:10" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;white-space:pre;inline-size:26.3173;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="62.954987"
-             y="21.246508"
-             id="text55794"
-             transform="translate(81.133454,-7.3912632)"><tspan
-               x="62.954987"
-               y="21.246508"><tspan
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Sistematic </tspan></tspan><tspan
-               x="62.954987"
-               y="26.538171"><tspan
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start">Evaluation</tspan></tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="147.19853"
-             y="5.3737822"
-             id="text55798"><tspan
-               sodipodi:role="line"
-               id="tspan55796"
-               x="147.19853"
-               y="5.3737822"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583">WP4</tspan></text>
-        </g>
-      </g>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="48.990753"
-       y="64.016144"
-       id="text55806"><tspan
-         sodipodi:role="line"
-         id="tspan55804"
-         x="48.990753"
-         y="64.016144"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'San Francisco Display';-inkscape-font-specification:'San Francisco Display';text-align:start;text-anchor:start;stroke-width:0.264583" /></text>
   </g>
 </svg>
