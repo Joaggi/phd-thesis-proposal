@@ -644,22 +644,22 @@
 					aria-hidden="true">
 					<h2 data-auto-animate-target="11">¿Qué métodos estadísticos se van a usar para medir la eficiencia de la estimación de densidad?</h2>
 					<div class="text-image">
-						<img src="resources/ec_liliana_methods.svg" alt="Classification dmkde"></img>
-					</div>
-				</section>
-
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<div class="text-image">
 						<ul>
-							<li>
-								Es importante aclarar exactamente qué es anómalo y qué es atípico. Con base en qué
-								metodología/definición se va identificar y luego a evaluar la precisión en la detección?
-							</li>
+							<li>We will measure <b>efficiency</b> and <b>effectiveness</b>.</li>
+							<li><b>Metrics:</b> 
+								<ul>
+									<li><b>Efficiency:</b> time</li>
+									<li><b>Effectiveness:</b> mean average precision, log mean average precision, spearman correlation, likelihood, log-likelihood.</li>
+									<li><b>Without true density:</b> proxy problem like classification.</li>
+								</ul> 
+							
+							<li><b>Metrics Estimation:</b> cross-validation</li>
+							<li><b>Hypotheses Testing:</b> statistical significance</li>
 						</ul>
 					</div>
 				</section>
+
+
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
@@ -688,8 +688,8 @@
 							</li>
 						</ul>
 
-						<span class="footnote">Chandola, V., Banerjee, A., & Kumar, V. (2009). Anomaly detection: A
-							survey. ACM computing surveys (CSUR), 41(3), 1-58.</span>
+						Chandola, V., Banerjee, A., & Kumar, V. (2009). Anomaly detection: A
+							survey. ACM computing surveys (CSUR), 41(3), 1-58.
 					</div>
 				</section>
 
@@ -699,31 +699,18 @@
 					<h3 data-auto-animate-target="11">¿Con base en qué metodología/definición se va identificar y luego
 						a evaluar la precisión en la detección?</h3>
 					<div class="text-image">
-						<img src="resources/ec_liliana_methods_2.svg" alt="Classification dmkde"></img>
-					</div>
-				</section>
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1>
-						Raul Ramos Pollan</h1>
-					<div class="text-image">
-						<ul>
-							<li>
-								1. ¿Puedes poner un ejemplo de una arquitectura convolucional que integrase un algoritmo
-								como los que se pretenden desarrollar? Es decir, ¿en qué capa(s) se integraría la
-								estimación de densidad?, ¿cómo afectaría a la función de pérdida?, ¿cómo afectaría al
-								cómputo de los gradientes y el proceso de optimización? y, finalmente, ¿qué ventajas
-								tendría?
-							</li>
-							<li>
-								2. ¿Crees que podrás desarrollar algoritmos basados en RFF y matrices de densidad
-								eficientes ambos en cómputo y utilización de memoria? El hecho de un algoritmo no sea
-								basado en memoria (objetivo específico 1) no quiere decir que haga de por sí un uso
-								eficiente de la misma. ¿Qué tipos de compromisos crees que vas a tener que enfrentar
-								para conseguir ambas eficiencias?
-							</li>
-						</ul>
+						<div class="text-image">
+							<ul>
+								<li>We will measure <b>efficiency</b> and <b>effectiveness</b>.</li>
+								<li><b>Metrics:</b> 
+									<ul>
+										<li><b>Efficiency:</b> time</li>
+										<li><b>Effectiveness:</b> precision, recall, f1-score, confusion matrix.</li>
+									</ul> 
+								<li><b>Metrics Estimation:</b> cross-validation</li>
+								<li><b>Hypotheses Testing:</b> statistical significance</li>
+							</ul>
+						</div>
 					</div>
 				</section>
 
@@ -747,33 +734,21 @@
 						<ul>
 							<li> ¿cómo afectaría a la función de pérdida?
 								<br><br>
-								<b>Density estimation:</b> (Log-likelihood) \(\text{argmax}_{W_i} -log(f(W_i, X))\)
+								<b>Density estimation:</b> (Log-likelihood) \(log(f(W_i, X))\).
 								<br><br>
-								<b>Classification:</b> (Bayes theorem) \(P(Y=j|X=x) = \frac{\pi_j\hat{f}_j}{\sum_{k=1}^{K}\pi_k \hat{f}_k}\)
+								<b>Classification:</b> (Categorical Cross Entropy) \(-\sum_{i=1}^{\text{output size}} y_i \cdot \log \hat{y}_i\).
+								<li>
+									Gradient descent can normally be used as in a neural network, but the RFF layer is not trainable in the case of density estimation.
+
+								</li>
+	
 							</li>
 						</ul>
+
+						
 					</div>
 				</section>
 
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h4> ¿Crees que podrás desarrollar algoritmos basados en RFF y matrices de densidad
-						eficientes ambos en cómputo y utilización de memoria? El hecho de un algoritmo no sea
-						basado en memoria (objetivo específico 1) no quiere decir que haga de por sí un uso
-						eficiente de la misma. ¿Qué tipos de compromisos crees que vas a tener que enfrentar
-						para conseguir ambas eficiencias?</h4>
-					<div class="text-image">
-						<ul>
-							<li>The method is efficient in both processing time and memory consumption. 
-								The trade-off is a loss in the accuracy of the method given by the 
-								approximation of the random Fourier features.
-							</li>
-
-							<li>There will be necessary in some cases to use dimensionality reduction aglorithms
-							</li>
-						</ul>
-					</div>
-				</section>
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
@@ -785,327 +760,91 @@
 					</div>
 				</section>
 
-
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
+					¿Crees que podrás desarrollar algoritmos basados en RFF y matrices de densidad eficientes ambos en cómputo y utilización de memoria? El hecho de un algoritmo no sea basado en memoria (objetivo específico 1) no quiere decir que haga de por sí un uso eficiente de la misma. ¿Qué tipos de compromisos crees que vas a tener que enfrentar para conseguir ambas eficiencias?
 					<div class="text-image">
-						<ul>
-							<li>
-
-							</li>
-						</ul>
+						<img src="resources/ec_raul_dmkde_sgd.svg" alt="Classification dmkde"/>
 					</div>
 				</section>
 
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h4> ¿cómo afectaría a la función de pérdida?, ¿cómo afectaría al
-						cómputo de los gradientes y el proceso de optimización? y, finalmente, ¿qué ventajas
-						tendría?</h4>
-					<div class="text-image">
-						<ul>
 
-							<li> ¿cómo afectaría al cómputo de los gradientes y el proceso de optimización?
-								<br><br>
-								Gradients can be computed as a normal neural network. However, in the case of density
-								estimation,
-								the method does not guarantee that we will approximate the real density function.
-								<br><br>
-								In classification, there is a density matrix for each class, the optimization is like a
-								normal neural network and the classification is done using Bayes' theorem.
-							</li>
-						</ul>
-					</div>
-				</section>
+
+
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					<div class="text-image">
-						<ul>
-							<li>
-								En los paquetes de trabajo me quedó faltando lo más importante, el análisis de riesgo.
+
+					En los paquetes de trabajo me quedó faltando lo más importante, el análisis de riesgo.
 								No veo en el proyecto una reflexión o un plan que ayude a mitigar la posibilidad de
 								fracaso de alguna de las actividades
 
+								<br><br>
+								Risk are associated with experimentals setups.
+					<div class="text-image">
+						<ul>
+							<li>
+								<b>Risk 1:</b> Access to datasets <br><br>
+
+								To mitigate this, we will search for open data sets only.
 							</li>
+							<li>
+								<b>Risk 2:</b> Does not have access to papers' algorithms
+								<br><br>
+
+								To mitigate we will:
+									<ul>
+										<li>contact authors</li>
+										<li>create our own implementations</li>
+										<li>focus only on public algorithms</li>
+									</ul>
+							</li>
+							
 						</ul>
 					</div>
 				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+				aria-hidden="true">
+
+				En los paquetes de trabajo me quedó faltando lo más importante, el análisis de riesgo.
+							No veo en el proyecto una reflexión o un plan que ayude a mitigar la posibilidad de
+							fracaso de alguna de las actividades
+				<div class="text-image">
+					<br><br>
+					Risk are associated with experimentals setups.
+					<ul>
+						<li>
+							<b>Risk 3:</b> issues with experimental reproducibility
+							To mitigate we will:
+
+							<ul>
+								<li>contact authors</li>
+								<li>report the results even if our results are different from the ones reported</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
 
 
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					<div class="text-image">
-						<ul>
-							<li>
-								- ¿Qué relación tiene el teorema de Parzen con el nivel incoherencia entre los espacios
+					- ¿Qué relación tiene el teorema de Parzen con el nivel incoherencia entre los espacios
 								de representación de los datos?
 								- En particular el teorema de Bochner define propiedades interesantes en funciones
 								(Kernels imagino) que se puedan expresar como el producto punto de medidas p(w) y bases
 								del tipo senos-cosenos, como entonces entiende o elabora uno un vínculo entre este
 								resultado y el teorema de Parzen?? que ventajas teóricas tendría tal vínculo?? y cómo
 								explotarlo en términos del proyecto de tesis?
+					<div class="text-image">
+						<ul>
+							<li>
+								Incoherence cames from the fact that 
 							</li>
 						</ul>
 					</div>
 				</section>
-
-			</section>
-
-
-
-
-			<section>
-				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="11">KDE and DMKDE</h1>
-				</section>
-
-
-
-
-
-
-
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">KDE using RFF</h1>
-					<h2 data-auto-animate-target="">Linear strategy</h2>
-					<div class="text-image">
-						<img src="resources/kde_linear.svg"> </img>
-					</div>
-				</section>
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="">KDE using RFF</h2>
-					<h3 data-auto-animate-target="">Quadratic strategy</h3>
-					<div class="text-image">
-						<img src="resources/kde_quadratic.svg"> </img>
-					</div>
-				</section>
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="">KDE using RFF</h2>
-					<h3 data-auto-animate-target="">Quadratic strategy</h3>
-					<div class="text-image">
-						<img src="resources/kde_quadratic_2.svg"> </img>
-					</div>
-				</section>
-
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">KDE using RFF</h1>
-					<h2 data-auto-animate-target="">Density Matrix Kernel Density Estimation (DMKDE)</h2>
-					<div class="text-image">
-						<img src="resources/kde_dmkde.svg"> </img>
-					</div>
-				</section>
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">KDE using RFF</h1>
-					<h2 data-auto-animate-target="">Density estimation converges in probability to KDE estimation</h2>
-					<div class="text-image">
-						<img src="resources/dmkde_theorem.svg"> </img>
-					</div>
-				</section>
-
-				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
-
-					<div class="text-image">
-						<img src="resources/dmkde_model.svg"> </img>
-					</div>
-
-				</section>
-
-				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Classification with DMKDE</h2>
-					<h3 data-auto-animate-target="11">Density Matrix Kernel Density Classification (DMKDC)</h3>
-					<img src="resources/classification_dmkde.png" alt="Classification dmkde">
-				</section>
-
-			</section>
-
-			<section>
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Anomaly Detection</h1>
-					<h2>Tools</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li>Let \(\alpha\) be the ratio of the anomaly points</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Anomaly Detection</h1>
-					<h2>Tools</h2>
-					<div class="text-image">
-						<img src="resources/classification.svg" alt="Websocket" width="35%" style="float: right">
-						<div width="50%">
-							<div>
-								<ul>
-									<li>Let \(\alpha\) be the ratio of the anomaly points</li>
-									<li>When \(\alpha\) is high \(\rightarrow\) supervised learning approach.</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-
-				</section>
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Anomaly Detection</h1>
-					<h2>Tools</h2>
-					<div class="text-image">
-						<img src="resources/novelty_detection_2d.png" alt="Websocket" width="35%" style="float: right">
-						<div width="50%">
-							<div>
-								<ul>
-									<li>Let \(\alpha\) be the ratio of the anomaly points</li>
-									<li>When \(\alpha\) is high \(\rightarrow\) supervised learning approach.</li>
-									<li> However, when \(\alpha\) is low \(\rightarrow\) outlier detection
-										algorithms.</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Aplications</h1>
-					<div class="text-image">
-						<div style="width:50%; float:left;">
-							<img src="resources/generative_model.png" alt="Generative Models" width="70%">
-							<p>Generative Models</p>
-						</div>
-						<div style="width:50%; float:right;">
-							<img src="resources/kde_kernel.svg" alt="Choropleth Maps" width="77%"
-								style="margin-top: 0px; margin-bottom: 0px;"><br>
-							Density Estimation
-						</div>
-						<div style="width:50%; float:left;">
-							<img src="resources/anomaly_detection_graph.svg" alt="Anomaly Detection" width="80%"><bR>
-							Anomaly Detection
-						</div>
-
-						<div style="width:50%; float:right;">
-							<img src="resources/classification.svg" alt="Classification" width="50%">
-							Classification
-						</div>
-					</div>
-				</section>
-
-				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Anomaly Detection</h2>
-					<h3 data-auto-animate-target="11">Sklearn Methods vs DMKDE in Gaussian distributions</h3>
-					<div class="text-image">
-						<img src="resources/anomaly_detection1.svg" alt="Classification dmkde"></img>
-					</div>
-				</section>
-			</section>
-
-			<section>
-				<section class="title-slide has-dark-background present" style="top: 312px; display: block;">
-					<h1>Density Matrices</h1>
-				</section>
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Quantum Mechanics</h1>
-					<h2 data-auto-animate-target="">Brief introduction</h2>
-
-					<div class="container">
-						<div class="left-col">
-							<ul>
-								<li>State of a quantum system (QS) \(\psi \in \mathcal{H}\) (vector in a Hilbert space).
-								</li>
-								<li><b>Quantum uncertainty</b>: a QS may be in any superposition of basis states.</li>
-								<li><b>Born rule</b>: probability that a measurement will produce a particular result.
-								</li>
-							</ul>
-						</div>
-						<div class="left-col">
-							<img src="resources/quantum_mechanics_brief_introduction.svg"> </img>
-						</div>
-					</div>
-				</section>
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Quantum Mechanics</h1>
-					<h2 data-auto-animate-target="">Example</h2>
-
-					<div class="container">
-						<img src="resources/quantum_mechanics_example.svg"> </img>
-					</div>
-				</section>
-
-				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="11">Density Matrices</h1>
-					<h2 data-auto-animate-target="11">Are they useful for statistics and ML?</h2>
-					<img src="resources/density_matrix.svg" alt="Websocket" width="45%" style="float: right">
-					<div style="width: 55%;">
-						<div>
-							<ul>
-								<li>A more general model of probability.</li>
-								<li>It combines linear algebra and probability</li>
-								<li>Probability calculations with linear algebra</li>
-
-							</ul>
-						</div>
-					</div>
-				</section>
-
-				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="11">Density Matrices</h1>
-					<h2 data-auto-animate-target="11">Represent a probability function efficiently</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li>Categorical distributions: <b style="color:red">Obvious</b>, but innefficient, not
-									very useful.</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="11">Density Matrices</h1>
-					<h2 data-auto-animate-target="11">Represent a probability function efficiently</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li>Categorical distributions: <b style="color:red">Obvious</b>, but innefficient, not
-									very useful.</li>
-								<li>Arbitrary distributions on \(\mathbb{R}^n\): <br><br><b style="color:red">Not
-										obvious</b>, mixtures of non-parametric probability distributions.</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-			</section>
-
-
-			<section style="top: 0px; display: block;" class="stack present" data-previous-indexv="0">
 
 				<section class="title-slide has-dark-background present" style="top: 312px; display: block;">
 					<h1>Random Fourier Features</h1>
@@ -1290,7 +1029,445 @@
 				</section>
 
 			</section>
-			<section>
+
+
+
+
+			<section data-visibility="uncounted">
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="11">KDE and DMKDE</h1>
+				</section>
+
+
+
+
+
+
+
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">KDE using RFF</h1>
+					<h2 data-auto-animate-target="">Linear strategy</h2>
+					<div class="text-image">
+						<img src="resources/kde_linear.svg"> </img>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="">KDE using RFF</h2>
+					<h3 data-auto-animate-target="">Quadratic strategy</h3>
+					<div class="text-image">
+						<img src="resources/kde_quadratic.svg"> </img>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="">KDE using RFF</h2>
+					<h3 data-auto-animate-target="">Quadratic strategy</h3>
+					<div class="text-image">
+						<img src="resources/kde_quadratic_2.svg"> </img>
+					</div>
+				</section>
+
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">KDE using RFF</h1>
+					<h2 data-auto-animate-target="">Density Matrix Kernel Density Estimation (DMKDE)</h2>
+					<div class="text-image">
+						<img src="resources/kde_dmkde.svg"> </img>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">KDE using RFF</h1>
+					<h2 data-auto-animate-target="">Density estimation converges in probability to KDE estimation</h2>
+					<div class="text-image">
+						<img src="resources/dmkde_theorem.svg"> </img>
+					</div>
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
+
+					<div class="text-image">
+						<img src="resources/dmkde_model.svg"> </img>
+					</div>
+
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">Classification with DMKDE</h2>
+					<h3 data-auto-animate-target="11">Density Matrix Kernel Density Classification (DMKDC)</h3>
+					<img src="resources/classification_dmkde.png" alt="Classification dmkde">
+				</section>
+
+			</section>
+
+			<section data-visibility="uncounted">
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Anomaly Detection</h1>
+					<h2>Tools</h2>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li>Let \(\alpha\) be the ratio of the anomaly points</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Anomaly Detection</h1>
+					<h2>Tools</h2>
+					<div class="text-image">
+						<img src="resources/classification.svg" alt="Websocket" width="35%" style="float: right">
+						<div width="50%">
+							<div>
+								<ul>
+									<li>Let \(\alpha\) be the ratio of the anomaly points</li>
+									<li>When \(\alpha\) is high \(\rightarrow\) supervised learning approach.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Anomaly Detection</h1>
+					<h2>Tools</h2>
+					<div class="text-image">
+						<img src="resources/novelty_detection_2d.png" alt="Websocket" width="35%" style="float: right">
+						<div width="50%">
+							<div>
+								<ul>
+									<li>Let \(\alpha\) be the ratio of the anomaly points</li>
+									<li>When \(\alpha\) is high \(\rightarrow\) supervised learning approach.</li>
+									<li> However, when \(\alpha\) is low \(\rightarrow\) outlier detection
+										algorithms.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Aplications</h1>
+					<div class="text-image">
+						<div style="width:50%; float:left;">
+							<img src="resources/generative_model.png" alt="Generative Models" width="70%">
+							<p>Generative Models</p>
+						</div>
+						<div style="width:50%; float:right;">
+							<img src="resources/kde_kernel.svg" alt="Choropleth Maps" width="77%"
+								style="margin-top: 0px; margin-bottom: 0px;"><br>
+							Density Estimation
+						</div>
+						<div style="width:50%; float:left;">
+							<img src="resources/anomaly_detection_graph.svg" alt="Anomaly Detection" width="80%"><bR>
+							Anomaly Detection
+						</div>
+
+						<div style="width:50%; float:right;">
+							<img src="resources/classification.svg" alt="Classification" width="50%">
+							Classification
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11">Anomaly Detection</h2>
+					<h3 data-auto-animate-target="11">Sklearn Methods vs DMKDE in Gaussian distributions</h3>
+					<div class="text-image">
+						<img src="resources/anomaly_detection1.svg" alt="Classification dmkde"></img>
+					</div>
+				</section>
+			</section>
+
+			<section data-visibility="uncounted">
+				<section class="title-slide has-dark-background present" style="top: 312px; display: block;">
+					<h1>Density Matrices</h1>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Quantum Mechanics</h1>
+					<h2 data-auto-animate-target="">Brief introduction</h2>
+
+					<div class="container">
+						<div class="left-col">
+							<ul>
+								<li>State of a quantum system (QS) \(\psi \in \mathcal{H}\) (vector in a Hilbert space).
+								</li>
+								<li><b>Quantum uncertainty</b>: a QS may be in any superposition of basis states.</li>
+								<li><b>Born rule</b>: probability that a measurement will produce a particular result.
+								</li>
+							</ul>
+						</div>
+						<div class="left-col">
+							<img src="resources/quantum_mechanics_brief_introduction.svg"> </img>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Quantum Mechanics</h1>
+					<h2 data-auto-animate-target="">Example</h2>
+
+					<div class="container">
+						<img src="resources/quantum_mechanics_example.svg"> </img>
+					</div>
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="11">Density Matrices</h1>
+					<h2 data-auto-animate-target="11">Are they useful for statistics and ML?</h2>
+					<img src="resources/density_matrix.svg" alt="Websocket" width="45%" style="float: right">
+					<div style="width: 55%;">
+						<div>
+							<ul>
+								<li>A more general model of probability.</li>
+								<li>It combines linear algebra and probability</li>
+								<li>Probability calculations with linear algebra</li>
+
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="11">Density Matrices</h1>
+					<h2 data-auto-animate-target="11">Represent a probability function efficiently</h2>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li>Categorical distributions: <b style="color:red">Obvious</b>, but innefficient, not
+									very useful.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="11">Density Matrices</h1>
+					<h2 data-auto-animate-target="11">Represent a probability function efficiently</h2>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li>Categorical distributions: <b style="color:red">Obvious</b>, but innefficient, not
+									very useful.</li>
+								<li>Arbitrary distributions on \(\mathbb{R}^n\): <br><br><b style="color:red">Not
+										obvious</b>, mixtures of non-parametric probability distributions.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</section>
+
+
+			<section style="top: 0px; display: block;" class="stack present" data-previous-indexv="0" data-visibility="uncounted">
+
+				<section class="title-slide has-dark-background present" style="top: 312px; display: block;">
+					<h1>Random Fourier Features</h1>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Methods</h1>
+					<div class="text-image">
+						<img src="resources/feature_space.png" alt="Websocket" width="30%" style="float: right">
+						<div style="width: 70%;">
+							<ul>
+								<li>Feature space induced by a kernel function.</li>
+
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Methods</h1>
+					<div class="text-image">
+						<img src="resources/gaussian_kernel.png" alt="Websocket" width="40%" style="float: right">
+						<div style="width: 60%;">
+							<ul>
+								<li>Feature space induced by a kernel function.</li>
+								<li>High or infinite dimensional embedded feature space.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Methods</h1>
+					<div class="text-image">
+						<div class="container">
+							<div class="left-col">
+								<ul>
+									<li>Feature space induced by a kernel function.</li>
+									<li>High or infinite dimensional embedded feature space.</li>
+									<li>Problem: efficiency \(O(N^2)\)</li>
+								</ul>
+							</div>
+							<div class="right-col">
+								\[\textbf{K}= \begin{bmatrix}k(\textbf{x}_1, \textbf{x}_1) & \cdots & k(\textbf{x}_1,
+								\textbf{x}_N)
+								\\ & \vdots
+								\\ \cdots& k(\textbf{x}_i, \textbf{x}_j) & \cdots
+								\\ & \vdots &
+								\\ k(\textbf{x}_N, \textbf{x}_1) & \cdots & k(\textbf{x}_N, \textbf{x}_N)
+
+								\end{bmatrix}\]
+
+							</div>
+
+
+						</div>
+					</div>
+				</section>
+
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Methods</h1>
+					<h2>Several Methods</h2>
+					<div class="text-image">
+						<img src="resources/gaussian_processes.png" alt="Websocket" width="45%" style="float: right">
+						<div style="width: 55%;">
+
+							<ul>
+								<li>Support Vector Machines</li>
+								<li>Kernel ridge regression</li>
+								<li>Gaussian processes</li>
+								<li>And many more</li>
+							</ul>
+							<br>
+							(nowadays called shallow methods)
+
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Random Fourier Features</h1>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li><b>Idea</b>: feature space approximation. </li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Random Fourier Features</h1>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li><b>Idea</b>: feature space approximation. </li>
+								<li>Given \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\)
+									<br> builds an embedding \( \phi_{\text{rff}}: \mathbb R^d \rightarrow
+									\mathbb{R}^D\)
+									<br> such that \[ k(x,y) \approx \langle \phi_{\text{rff}}(x), \phi_{\text{rff}}(y)
+									\rangle \]
+
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Random Fourier Features</h1>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li><b>Idea</b>: feature space approximation. </li>
+								<li>Given \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\)
+									<br> builds an embedding \( \phi_{\text{rff}}: \mathbb R^d \rightarrow
+									\mathbb{R}^D\)
+									<br> such that \[ k(x,y) \approx \langle \phi_{\text{rff}}(x), \phi_{\text{rff}}(y)
+									\rangle \]
+
+								</li>
+								<li><b>Result:</b> learn models involving non-linear kernels using linear
+									methods</li>
+
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Random Fourier Features</h1>
+					<div class="text-image">
+						<div>
+							<ul>
+								<li><b>Idea</b>: feature space approximation. </li>
+								<li>Given \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\)
+									<br> builds an embedding \( \phi_{\text{rff}}: \mathbb R^d \rightarrow
+									\mathbb{R}^D\)
+									<br> such that \[ k(x,y) \approx \langle \phi_{\text{rff}}(x), \phi_{\text{rff}}(y)
+									\rangle \]
+
+								</li>
+								<li><b>Result:</b> learn models involving non-linear kernels using linear
+									methods</li>
+								<li>Test of the time award NeurIPS 2017</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Random Fourier Features</h1>
+					<h2 data-auto-animate-target="">Method</h2>
+					<div class="text-image">
+						<ul>
+							<li>Sample \(\{w_1,\cdots,w_D\} \sim p\text{, }p(w)\) is the Fourier transform of \(k\)</li>
+							<li>Sample \(\{b_1,\cdots,b_D\} \sim Unif[0, 2\pi]\)
+								<br>
+								\[\phi_{\text{rff}}: \mathbb{R}^d \rightarrow \mathbb{R}^D\]
+								\[x \rightarrow \sqrt{\frac{2}{D}}(cos(w_1^Tx + b_1), \cdots, cos(w_D^Tx + b_D)))\]
+
+							</li>
+							<li>Based on the Bochner's theorem:<br>
+								<b>THeorem 1 (Bochner [])</b>. A continous kernel \(k(x,y)=k(x-y)\) on \(\mathbb{R}^d\)
+								is
+								positive definite if and only if \(k(\delta)\) is the Fourier transform of a
+								non-negative
+								measure.
+
+								\[k(x-y)=\int_{\mathbb{R}^d} p(w)e^{jw'(x-y)}dw=\mathbb{E}[\zeta_w(x)\zeta(y)^*]\]
+							</li>
+						</ul>
+					</div>
+				</section>
+
+			</section>
+			<section data-visibility="uncounted">
 				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
 					aria-hidden="true">
 					<h1 data-auto-animate-target="11">Budget</h1>
@@ -1376,8 +1553,8 @@
 			center: true,
 			hash: true,
 			margin: 0.04,
-			minScale: 2.0,
-    		maxScale: 2.0,
+			// minScale: 2.0,
+    		// maxScale: 2.0,
 			autoAnimate: false,
 			transition: 'none',
 			slideNumber: 'c/t',
